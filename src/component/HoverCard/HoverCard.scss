@@ -1,0 +1,88 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+.hoverCard-container {
+  width: 90%;
+  height: 220px;
+  background: white;
+  position: absolute;
+  top: 670px;
+  z-index: 99;
+  // margin: 0 50%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  .hoverCardHeaderContainer {
+    padding: 2rem 10px;
+    padding-top: 1.7rem;
+    text-align: center;
+    span {
+      color: #4c4c4c;
+      font-size: 25px;
+      font-weight: 800;
+    }
+  }
+  .hoverCardLogoConatiner {
+    background: white;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: $phone) {
+  .hoverCard-container {
+    width: 100%;
+    border-radius: 0px;
+    position: static;
+    padding: 0 0rem;
+  box-shadow:none;
+
+    .hoverCardHeaderContainer {
+      // padding: 2rem 10px;
+      // padding-top: 1.7rem;
+      text-align: center;
+      left: 0%;
+
+      span {
+        text-align: center;
+        // color: #4c4c4c;
+        // font-size: 25px;
+        // font-weight: 800;
+      }
+    }
+    .hoverCardLogoConatiner {
+      // background: white;
+      // align-items: center;
+      // justify-content: center;
+    }
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: $phone) and (max-width: $tablet) {
+  /* CSS rules for small devices */
+}
+
+/* Medium devices (small laptops, 768px and up) */
+@media (min-width: $tablet) and (max-width: $laptop) {
+  /* CSS rules for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: $laptop) and (max-width: $desktop) {
+  /* CSS rules for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: $desktop) and (max-width: $largeDesktop) {
+  /* CSS rules for extra large devices */
+}
+
+/* Extra extra large devices (ultra-wide screens, 1400px and up) */
+@media (min-width: $ultraWideScreens) {
+  /* CSS rules for extra extra large devices */
+}

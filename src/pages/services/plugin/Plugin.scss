@@ -1,0 +1,414 @@
+@import "../../../Styles/constant";
+@import "../../../Styles/variables";
+
+.pluginWrapper{
+    .pluginMainHeader{
+        width: 100%;
+        height: 450px;
+  
+        background: url(../../../assets/pluginBgF.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding-left: 2rem;
+        .pluginHeaderText1{
+            font-size: 50px;
+                color: white;
+                letter-spacing: 1px;
+                font-weight: 600;
+                opacity: 0.9;
+                line-height: 3.2rem;
+        
+                font-family: "Nunito", sans-serif;
+
+        }
+        .pluginHeaderText2{
+            width: 50%;
+            font-size: 17px;
+            color: white;
+            // letter-spacing: 1px;
+            word-spacing: 1px;
+            margin: 2rem 0;
+            line-height: 1.5rem;
+            span{
+              font-weight: 700;
+
+            }
+
+        }
+        .pluginButtonContainer{
+
+               
+                margin-bottom: 1.5rem;
+        
+                padding: 13px 13px;
+                width: 200px;
+                border-radius: 40px;
+        
+                background: $green;
+                display: flex;
+                align-items: start;
+                text-align: start;
+                gap: 8px;
+        
+                margin-top: 1rem;
+                cursor: pointer;
+                &:hover {
+                  svg {
+                    transform: translateX(8px);
+                  }
+                }
+                a {
+                  text-decoration: none;
+                  color: white;
+                  // color: white;
+                  margin-left: 3px;
+        
+                  font-weight: 600;
+                  letter-spacing: 1px;
+                }
+                svg {
+                  color: white;
+                  // color: w;
+        
+                  transform: translateX(0px);
+                  transition: 0.5s;
+                  font-size: 20px;
+                }
+              }
+
+    }
+    .PluginPageSample{
+        .PluginPageSampleheader{
+          text-align: center;
+          padding-bottom: 1.5rem;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          span{
+            text-align: center;
+            font-size: 45px;
+            font-weight: 600;
+  
+          }
+          .PluginPageSampleDivider{
+            background: rgba(0, 0, 0, 0.7);
+            height: 3px;
+            width: 200px;
+            margin-top: 1rem;
+          }
+        }
+  
+      }
+      .pluginPageFqa{
+
+      display: flex;
+      flex-direction: column;
+      padding: 1rem ;
+      .mobilePageFqaHeaderText{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+      }
+      .mobilePageQuestion{
+        margin-top: 1rem;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+  
+      }
+      .mobilePageFqaAnswer{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 18px;
+        // font-weight: 700;
+        line-height: 1.5rem;
+  
+  
+  
+      }
+      .mobilePageFqaDivider{
+        width: 100%;
+        height: 1px;
+      background: rgba(0, 0,0, 0.3);
+      
+  
+  
+      }
+    }
+}
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+
+  .pluginWrapper{
+    .pluginMainHeader{
+        width: 100%;
+        height: 550px;
+  
+        // background: url(../../../assets/pluginBgF.png);
+        // background-size: cover;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: start;
+        // justify-content: center;
+        // padding-left: 1rem;
+        .pluginHeaderText1{
+            font-size: 30px;
+                // color: white;
+                // letter-spacing: 1px;
+                // font-weight: 600;
+                // opacity: 0.9;
+                line-height: 2rem;
+        
+                // font-family: "Nunito", sans-serif;
+
+        }
+        .pluginHeaderText2{
+            width: 90%;
+            // font-size: 17px;
+            // color: white;
+            // // letter-spacing: 1px;
+            // word-spacing: 1px;
+            margin: 1rem 0;
+            line-height: 1.5rem;
+            // span{
+            //   font-weight: 700;
+
+            // }
+
+        }
+        // .pluginButtonContainer{
+
+               
+        //         margin-bottom: 1.5rem;
+        
+        //         padding: 13px 13px;
+        //         width: 200px;
+        //         border-radius: 40px;
+        
+        //         background: $green;
+        //         display: flex;
+        //         align-items: start;
+        //         text-align: start;
+        //         gap: 8px;
+        
+        //         margin-top: 1rem;
+        //         cursor: pointer;
+        //         &:hover {
+        //           svg {
+        //             transform: translateX(8px);
+        //           }
+        //         }
+        //         a {
+        //           text-decoration: none;
+        //           color: white;
+        //           // color: white;
+        //           margin-left: 3px;
+        
+        //           font-weight: 600;
+        //           letter-spacing: 1px;
+        //         }
+        //         svg {
+        //           color: white;
+        //           // color: w;
+        
+        //           transform: translateX(0px);
+        //           transition: 0.5s;
+        //           font-size: 20px;
+        //         }
+        //       }
+
+    }
+    .PluginPageSample{
+        .PluginPageSampleheader{
+          // text-align: center;
+          // padding-bottom: 1.5rem;
+          // display: flex;
+          // align-items: center;
+          // flex-direction: column;
+          span{
+            // text-align: center;
+            font-size: 40px;
+            // font-weight: 600;
+  
+          }
+          // .PluginPageSampleDivider{
+          //   background: rgba(0, 0, 0, 0.7);
+          //   height: 3px;
+          //   width: 200px;
+          //   margin-top: 1rem;
+          // }
+        }
+  
+      }
+
+}
+
+
+}
+  
+  /* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+  @media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+    .pluginWrapper{
+      .pluginMainHeader{
+          // width: 100%;
+          // height: 450px;
+    
+          // background: url(../../../assets/pluginBgF.png);
+          // background-size: cover;
+          // background-position: center;
+          // background-repeat: no-repeat;
+          // display: flex;
+          // flex-direction: column;
+          // align-items: start;
+          // justify-content: center;
+          // padding-left: 2rem;
+          .pluginHeaderText1{
+              // font-size: 50px;
+              //     color: white;
+              //     letter-spacing: 1px;
+              //     font-weight: 600;
+              //     opacity: 0.9;
+              //     line-height: 3.2rem;
+          
+              //     font-family: "Nunito", sans-serif;
+  
+          }
+          .pluginHeaderText2{
+              width: 80%;
+              // font-size: 17px;
+              // color: white;
+              // letter-spacing: 1px;
+              // word-spacing: 1px;
+              margin: 1.5rem 0;
+              // line-height: 1.5rem;
+              // span{
+              //   font-weight: 700;
+  
+              // }
+  
+          }
+          // .pluginButtonContainer{
+  
+                 
+          //         margin-bottom: 1.5rem;
+          
+          //         padding: 13px 13px;
+          //         width: 200px;
+          //         border-radius: 40px;
+          
+          //         background: $green;
+          //         display: flex;
+          //         align-items: start;
+          //         text-align: start;
+          //         gap: 8px;
+          
+          //         margin-top: 1rem;
+          //         cursor: pointer;
+          //         &:hover {
+          //           svg {
+          //             transform: translateX(8px);
+          //           }
+          //         }
+          //         a {
+          //           text-decoration: none;
+          //           color: white;
+          //           // color: white;
+          //           margin-left: 3px;
+          
+          //           font-weight: 600;
+          //           letter-spacing: 1px;
+          //         }
+          //         svg {
+          //           color: white;
+          //           // color: w;
+          
+          //           transform: translateX(0px);
+          //           transition: 0.5s;
+          //           font-size: 20px;
+          //         }
+          //       }
+  
+      }
+      // .PluginPageSample{
+      //     .PluginPageSampleheader{
+      //       text-align: center;
+      //       padding-bottom: 1.5rem;
+      //       display: flex;
+      //       align-items: center;
+      //       flex-direction: column;
+      //       span{
+      //         text-align: center;
+      //         font-size: 45px;
+      //         font-weight: 600;
+    
+      //       }
+      //       .PluginPageSampleDivider{
+      //         background: rgba(0, 0, 0, 0.7);
+      //         height: 3px;
+      //         width: 200px;
+      //         margin-top: 1rem;
+      //       }
+      //     }
+    
+      //   }
+      //   .pluginPageFqa{
+  
+      //   display: flex;
+      //   flex-direction: column;
+      //   padding: 1rem ;
+      //   .mobilePageFqaHeaderText{
+      //     width: 100%;
+      //     text-align: center;
+      //     font-size: 40px;
+      //     font-weight: 600;
+      //     margin-top: 2rem;
+      //     margin-bottom: 1rem;
+          
+      //   }
+      //   .mobilePageQuestion{
+      //     margin-top: 1rem;
+      //     font-size: 22px;
+      //     font-weight: 700;
+      //     letter-spacing: 1px;
+    
+      //   }
+      //   .mobilePageFqaAnswer{
+      //     margin-top: 1rem;
+      //     margin-bottom: 2rem;
+      //     font-size: 18px;
+      //     // font-weight: 700;
+      //     line-height: 1.5rem;
+    
+    
+    
+      //   }
+      //   .mobilePageFqaDivider{
+      //     width: 100%;
+      //     height: 1px;
+      //   background: rgba(0, 0,0, 0.3);
+        
+    
+    
+      //   }
+      // }
+  }
+  }
+  
+  /* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+  @media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+  }
+  
+  /* Large Screen Styles ($large-screen-breakpoint and up) */
+  @media (min-width: #{$large-screen-breakpoint}) {
+  }

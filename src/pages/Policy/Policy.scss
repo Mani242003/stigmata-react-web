@@ -1,0 +1,44 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+.policy_W{
+
+
+    .policy_C{
+
+        .policy_C_header{
+            height: 150px;
+            width: 100%;
+            background: $green;
+            display: flex;
+            align-items: center;
+            padding-left: 2rem;
+            span{
+font-size: 55px;
+font-weight: 800;
+color: white;
+            }
+
+        }
+        .policy_Content{
+            padding: 2rem;
+            .textTitle{
+                font-size: 30px;
+                font-weight: 800;
+
+            }
+            .textDes{
+                font-size: 17px;
+                line-height: 1.5rem;
+                word-spacing: 1px;
+                span{
+                    font-weight: 800;
+                    font-size: 19px;
+                }
+            }
+
+
+        }
+
+    }
+
+}

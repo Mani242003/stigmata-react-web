@@ -1,0 +1,340 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+.PluginSample_wrapper{
+  width: 100%;
+  .PluginSample_container{
+    width: 100%;
+    // padding: 3rem $md-gap;
+    display: flex;
+    background: #f3f5f9;
+    padding: 2rem 0;
+    .PluginSample_container_left {
+      padding-left: 2rem;
+      // margin-bottom: 10%;
+
+   
+    }
+    .PluginSample_container_right {
+      // padding: 1rem;
+      padding-left: 1rem;
+      padding-right: 0.5rem;
+      img{
+        width: 80px;
+      }
+      // margin-left: 45%;
+      display: flex;
+      flex-direction: column;
+    
+      .simplicity_right_text2 {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        span{
+          font-size: 23px;
+          font-weight: 400;
+        }
+      }
+      .simplicity_right_text3 {
+        margin: 0.5rem 0;
+        font-size: 16px;
+        // letter-spacing: 1px;
+        line-height: 1.5rem;
+        word-spacing: 1px;
+      }
+      .simplicity_rightTechTitel{
+        // display: none;
+      font-weight: 600;
+      margin-bottom:0.5rem;
+      }
+      .simplicity_right_bottom {
+        padding-top: 2rem;
+        width: 100%;
+        display: flex;
+  
+        .simplicity_bottom_row1 {
+          display: flex;
+          gap: 5rem;
+          .simplicity_bottom_row1_content {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+
+           
+            span {
+              text-align: center;
+              letter-spacing: 1px;
+              font-weight: 700;
+
+            }
+          }
+        }
+      
+      }
+      .feaPage-col-1-bottom-container {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .feaPage-col-1-text-4 {
+        color: black;
+      
+        opacity: 0.8;
+      }
+    }
+  }
+  .customContainer{
+    flex-direction: row-reverse;
+    // background: #f3f5f9;
+    background-color: #FEF6D6;
+    .PluginSample_container_left{
+      padding-right: 2rem;
+      // margin-bottom: 10%;
+      
+   
+    }
+    .PluginSample_container_right{
+      padding-left: 3rem;
+    }
+  }
+}
+
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+
+  .PluginSample_wrapper{
+    // width: 100%;
+    .PluginSample_container{
+      // width: 100%;
+      // padding: 3rem $md-gap;
+      display: flex;
+      background: #f3f5f9;
+      padding: 2rem 0;
+      flex-direction: column;
+      .PluginSample_container_left {
+        padding-left: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 20rem;
+        }
+        
+        // margin-bottom: 10%;
+  
+     
+      }
+      .PluginSample_container_right {
+        // padding: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding: 1rem;
+        img{
+          width: 80px;
+        }
+        // margin-left: 45%;
+        display: flex;
+        flex-direction: column;
+      
+        // .simplicity_right_text2 {
+        //   font-size: 25px;
+        //   font-weight: 600;
+        //   letter-spacing: 1px;
+        //   span{
+        //     font-size: 23px;
+        //     font-weight: 400;
+        //   }
+        // }
+        // .simplicity_right_text3 {
+        //   margin: 0.5rem 0;
+        //   font-size: 16px;
+        //   // letter-spacing: 1px;
+        //   line-height: 1.5rem;
+        //   word-spacing: 1px;
+        // }
+        // .simplicity_rightTechTitel{
+        //   // display: none;
+        // font-weight: 600;
+        // margin-bottom:0.5rem;
+        // }
+        // .simplicity_right_bottom {
+        //   padding-top: 2rem;
+        //   width: 100%;
+        //   display: flex;
+    
+        //   .simplicity_bottom_row1 {
+        //     display: flex;
+        //     gap: 5rem;
+        //     .simplicity_bottom_row1_content {
+        //       display: flex;
+        //       flex-direction: column;
+        //       text-align: center;
+        //       align-items: center;
+  
+  
+             
+        //       span {
+        //         text-align: center;
+        //         letter-spacing: 1px;
+        //         font-weight: 700;
+  
+        //       }
+        //     }
+        //   }
+        
+        // }
+        // .feaPage-col-1-bottom-container {
+        //   display: flex;
+        //   align-items: center;
+        //   gap: 0.5rem;
+        // }
+        // .feaPage-col-1-text-4 {
+        //   color: black;
+        
+        //   opacity: 0.8;
+        // }
+      }
+    }
+    .customContainer{
+      flex-direction: row-reverse;
+      // background: #f3f5f9;
+      background-color: #FEF6D6;
+    flex-direction: column;
+      .PluginSample_container_left{
+        padding-right: 0rem;
+        // margin-bottom: 10%;
+        
+     
+      }
+      .PluginSample_container_right{
+        padding-left: 0rem;
+        padding: 1rem;
+      }
+    }
+  }
+
+
+}
+  
+  /* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+  @media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+    .PluginSample_wrapper{
+      // width: 100%;
+      .PluginSample_container{
+        // width: 100%;
+        // padding: 3rem $md-gap;
+        // display: flex;
+        // background: #f3f5f9;
+        // padding: 2rem 0;
+        
+
+        .PluginSample_container_left {
+          padding-left: 0rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          // margin-bottom: 10%;
+          img{
+            width: 25rem;
+          }
+    
+       
+        }
+        .PluginSample_container_right {
+          // padding: 1rem;
+          padding-left: 1rem;
+          padding-right: 0.5rem;
+          img{
+            width: 80px;
+          }
+          // margin-left: 45%;
+          display: flex;
+          flex-direction: column;
+        
+          .simplicity_right_text2 {
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            span{
+              font-size: 23px;
+              font-weight: 400;
+            }
+          }
+          .simplicity_right_text3 {
+            margin: 0.5rem 0;
+            font-size: 16px;
+            // letter-spacing: 1px;
+            line-height: 1.5rem;
+            word-spacing: 1px;
+          }
+          .simplicity_rightTechTitel{
+            // display: none;
+          font-weight: 600;
+          margin-bottom:0.5rem;
+          }
+          .simplicity_right_bottom {
+            padding-top: 2rem;
+            width: 100%;
+            display: flex;
+      
+            .simplicity_bottom_row1 {
+              display: flex;
+              gap: 5rem;
+              .simplicity_bottom_row1_content {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+    
+    
+               
+                span {
+                  text-align: center;
+                  letter-spacing: 1px;
+                  font-weight: 700;
+    
+                }
+              }
+            }
+          
+          }
+          .feaPage-col-1-bottom-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+          }
+          .feaPage-col-1-text-4 {
+            color: black;
+          
+            opacity: 0.8;
+          }
+        }
+      }
+      .customContainer{
+        flex-direction: row-reverse;
+        // background: #f3f5f9;
+        background-color: #FEF6D6;
+        .PluginSample_container_left{
+          padding-right: 2rem;
+          // margin-bottom: 10%;
+          
+       
+        }
+        .PluginSample_container_right{
+          padding-left: 3rem;
+        }
+      }
+    }
+    
+  }
+  
+  /* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+  @media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+  }
+  
+  /* Large Screen Styles ($large-screen-breakpoint and up) */
+  @media (min-width: #{$large-screen-breakpoint}) {
+  }

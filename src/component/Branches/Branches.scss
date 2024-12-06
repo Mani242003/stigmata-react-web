@@ -1,0 +1,386 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+.branches-wrapper{
+    .branchesContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f5f9;
+        flex-direction: column;
+        background: url(../../assets/branchBg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 2rem;
+        overflow: hidden;
+
+        .TB_headerConatiner {
+            display: flex;
+            flex-direction: column;
+            // padding: 1rem;
+            padding: 1.5rem 0;
+            padding-bottom: 2rem;
+            text-align: center;
+            .TB_headerSmallTitel {
+              text-align: center;
+              font-size: 18px;
+              font-weight: 700;
+              color: rgba(0, 0, 0, 0.7);
+            }
+            .TB_headerBigTitel {
+              font-size: 40px;
+              text-align: center;
+              font-weight: 800;
+              color: #f5f5f5; /* fallback color */
+              background: linear-gradient(to right, #0565fe, #d241a4);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              margin-top: 10px;
+            }
+          }
+        .profileConainer{
+            display: flex;
+            .B_CustomCardContainer{
+                width: 350px;
+                height: 410px;
+                margin: 20px;
+                border-radius: 4px;
+                padding-bottom: 20px;
+                background-color: white;
+                backdrop-filter: blur(10px);
+                transition: transform 0.3s;
+                &:hover {
+                    transform: scale(1.05);
+                  }
+                .gradiant{
+                    background-image: linear-gradient(#91baff,#205fff);
+                    height: 125px;
+                    border-radius:  4px 4px 0 0;
+                }
+                .profileDown{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    img{
+                        width: 150px;
+                        border-radius: 999px;
+                        margin-top: -75px;
+                        padding: 5px;
+                        background: white;
+                    }
+                    .profileIntro{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        // gap: 2rem;
+                        padding: 1rem 1rem;
+                        // align-items: center;
+                        .profileName{
+                            font-size: 19px;
+                            font-weight: 700;
+                            text-wrap: nowrap;
+                        }
+                        .profileDes{
+                            margin-top: 0.5rem;
+                            margin-bottom: 2rem;
+                            font-size: 16px;
+                            font-weight: 500;
+                            span{
+                                font-weight: 800;
+                                border-bottom: 1px dotted silver;
+                                text-align: center;
+                                color: #f5f5f5; /* fallback color */
+                                background: linear-gradient(to right, #0565fe, #d241a4);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+    
+                        }
+                        .profileAddText{
+                            font-weight: 700;
+                            border-bottom: 1px dotted silver;
+                            text-align: center;
+                            color: #f5f5f5; /* fallback color */
+                            background: linear-gradient(to right, #0565fe, #d241a4);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                        }
+    
+                    }
+                }
+    
+            }
+        }
+       
+
+    }
+
+}
+
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+    .branches-wrapper{
+        .branchesContainer{
+            overflow: hidden;
+
+            // width: 100%;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // background: #f3f5f9;
+            // flex-direction: column;
+            // background: url(../../assets/branchBg.jpg);
+            // background-size: cover;
+            // background-position: center;
+            // background-repeat: no-repeat;
+            // padding-bottom: 2rem;
+            .TB_headerConatiner {
+                // display: flex;
+                // flex-direction: column;
+                // // padding: 1rem;
+                // padding: 1.5rem 0;
+                padding-bottom: 0rem;
+                // text-align: center;
+                .TB_headerSmallTitel {
+                //   text-align: center;
+                //   font-size: 18px;
+                //   font-weight: 700;
+                //   color: rgba(0, 0, 0, 0.7);
+                }
+                .TB_headerBigTitel {
+                  font-size: 35px;
+                //   text-align: center;
+                //   font-weight: 800;
+                //   color: #f5f5f5; /* fallback color */
+                //   background: linear-gradient(to right, #0565fe, #d241a4);
+                //   -webkit-background-clip: text;
+                //   -webkit-text-fill-color: transparent;
+                  margin-top: 0px;
+                }
+              }
+            .profileConainer{
+                display: flex;
+                flex-direction: column;
+                .B_CustomCardContainer{
+                    width: 300px;
+                    height: 410px;
+                    // margin: 20px;
+                    // border-radius: 4px;
+                    // padding-bottom: 20px;
+                    // background-color: white;
+                    // backdrop-filter: blur(10px);
+                    // transition: transform 0.3s;
+                    // &:hover {
+                    //     transform: scale(1.05);
+                    //   }
+                    // .gradiant{
+                    //     background-image: linear-gradient(#91baff,#205fff);
+                    //     height: 125px;
+                    //     border-radius:  4px 4px 0 0;
+                    // }
+                    // .profileDown{
+                    //     width: 100%;
+                    //     display: flex;
+                    //     align-items: center;
+                    //     flex-direction: column;
+                    //     img{
+                    //         width: 150px;
+                    //         border-radius: 999px;
+                    //         margin-top: -75px;
+                    //         padding: 5px;
+                    //         background: white;
+                    //     }
+                    //     .profileIntro{
+                    //         width: 100%;
+                    //         display: flex;
+                    //         flex-direction: column;
+                    //         align-items: center;
+                    //         text-align: center;
+                    //         // gap: 2rem;
+                    //         padding: 1rem 1rem;
+                    //         // align-items: center;
+                    //         .profileName{
+                    //             font-size: 19px;
+                    //             font-weight: 700;
+                    //             text-wrap: nowrap;
+                    //         }
+                    //         .profileDes{
+                    //             margin-top: 0.5rem;
+                    //             margin-bottom: 2rem;
+                    //             font-size: 16px;
+                    //             font-weight: 500;
+                    //             span{
+                    //                 font-weight: 800;
+                    //                 border-bottom: 1px dotted silver;
+                    //                 text-align: center;
+                    //                 color: #f5f5f5; /* fallback color */
+                    //                 background: linear-gradient(to right, #0565fe, #d241a4);
+                    //                 -webkit-background-clip: text;
+                    //                 -webkit-text-fill-color: transparent;
+                    //             }
+        
+                    //         }
+                    //         .profileAddText{
+                    //             font-weight: 700;
+                    //             border-bottom: 1px dotted silver;
+                    //             text-align: center;
+                    //             color: #f5f5f5; /* fallback color */
+                    //             background: linear-gradient(to right, #0565fe, #d241a4);
+                    //             -webkit-background-clip: text;
+                    //             -webkit-text-fill-color: transparent;
+                    //         }
+        
+                    //     }
+                    // }
+        
+                }
+            }
+           
+    
+        }
+    
+    }
+  }
+  
+  /* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+  @media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+  
+ 
+    .branches-wrapper{
+        .branchesContainer{
+            overflow: hidden;
+
+            // width: 100%;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // background: #f3f5f9;
+            // flex-direction: column;
+            // background: url(../../assets/branchBg.jpg);
+            // background-size: cover;
+            // background-position: center;
+            // background-repeat: no-repeat;
+            // padding-bottom: 2rem;
+            .TB_headerConatiner {
+                // display: flex;
+                // flex-direction: column;
+                // // padding: 1rem;
+                // padding: 1.5rem 0;
+                padding-bottom: 0rem;
+                // text-align: center;
+                .TB_headerSmallTitel {
+                //   text-align: center;
+                //   font-size: 18px;
+                //   font-weight: 700;
+                //   color: rgba(0, 0, 0, 0.7);
+                }
+                .TB_headerBigTitel {
+                  font-size: 35px;
+                //   text-align: center;
+                //   font-weight: 800;
+                //   color: #f5f5f5; /* fallback color */
+                //   background: linear-gradient(to right, #0565fe, #d241a4);
+                //   -webkit-background-clip: text;
+                //   -webkit-text-fill-color: transparent;
+                  margin-top: 0px;
+                }
+              }
+            .profileConainer{
+                display: flex;
+                // flex-direction: column;
+                gap: 2rem;
+                .B_CustomCardContainer{
+                    width: 240px;
+                    height: 430px;
+                    margin: 0px;
+                    margin-right: 0rem;
+                    margin-top: 1.5rem;
+                    border-radius: 4px;
+                    padding-bottom: 20px;
+                    background-color: white;
+                    backdrop-filter: blur(10px);
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: scale(1.05);
+                      }
+                    .gradiant{
+                        background-image: linear-gradient(#91baff,#205fff);
+                        height: 105px;
+                        border-radius:  4px 4px 0 0;
+                    }
+                    .profileDown{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        img{
+                            width: 150px;
+                            border-radius: 999px;
+                            margin-top: -75px;
+                            padding: 5px;
+                            background: white;
+                        }
+                        .profileIntro{
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            text-align: center;
+                            // gap: 2rem;
+                            padding: 0rem 1rem;
+                            // align-items: center;
+                            .profileName{
+                                font-size: 19px;
+                                font-weight: 700;
+                                text-wrap: wrap;
+                            }
+                            .profileDes{
+                                margin-top: 0.5rem;
+                                margin-bottom: 2rem;
+                                font-size: 16px;
+                                font-weight: 500;
+                                span{
+                                    font-weight: 800;
+                                    border-bottom: 1px dotted silver;
+                                    text-align: center;
+                                    color: #f5f5f5; /* fallback color */
+                                    background: linear-gradient(to right, #0565fe, #d241a4);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                }
+        
+                            }
+                            .profileAddText{
+                                font-weight: 700;
+                                border-bottom: 1px dotted silver;
+                                text-align: center;
+                                color: #f5f5f5; /* fallback color */
+                                background: linear-gradient(to right, #0565fe, #d241a4);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+        
+                        }
+                    }
+        
+                }
+            }
+           
+    
+        }
+    
+    }
+  }
+  
+  /* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+  @media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+  }
+  
+  /* Large Screen Styles ($large-screen-breakpoint and up) */
+  @media (min-width: #{$large-screen-breakpoint}) {
+  }

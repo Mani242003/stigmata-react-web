@@ -1,0 +1,88 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+.careers_W{
+
+    .careers_C{
+        .careersMainHeader{
+            width: 100%;
+            height: 450px;
+      
+            background: url(../../assets/images/cI.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            padding-left: 2rem;
+            .careersMainHeaderText1{
+                font-size: 50px;
+                color: white;
+                letter-spacing: 1px;
+                font-weight: 600;
+                opacity: 0.9;
+                line-height: 3.2rem;
+        
+                font-family: "Nunito", sans-serif;
+
+            }
+            .careersMainHeaderText2{
+                width: 50%;
+                font-size: 18px;
+                color: white;
+                // letter-spacing: 1px;
+                word-spacing: 1px;
+                font-weight: 400;
+                margin: 2rem 0;
+                line-height: 1.5rem;
+
+            }
+            .careersMainButton_C{
+
+               
+                    margin-bottom: 1.5rem;
+            
+                    padding: 13px 13px;
+                    width: 375px;
+                    border-radius: 40px;
+            
+                    background: $green;
+                    display: flex;
+                    align-items: start;
+                    text-align: start;
+                    gap: 8px;
+            
+                    margin-top: 1rem;
+                    cursor: pointer;
+                    &:hover {
+                      svg {
+                        transform: translateX(8px);
+                      }
+                    }
+                    a {
+                      text-decoration: none;
+                      color: white;
+                      // color: white;
+                      margin-left: 3px;
+            
+                      font-weight: 600;
+                      letter-spacing: 1px;
+                    }
+                    svg {
+                      color: white;
+                      // color: w;
+            
+                      transform: translateX(0px);
+                      transition: 0.5s;
+                      font-size: 20px;
+                    }
+                  }
+
+
+        }
+
+    }
+
+}

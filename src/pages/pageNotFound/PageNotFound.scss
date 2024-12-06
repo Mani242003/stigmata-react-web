@@ -1,0 +1,58 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+.not-found{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+    img{
+        width: 45rem;
+    }
+    .pgNotFoundButtonConatainer{
+            margin-bottom: 1.5rem;
+            
+    
+    
+              padding: 13px 13px;
+              width: 210px;
+      
+              background: $green;
+              display: flex;
+              align-items: start;
+              text-align: start;
+              gap: 8px;
+      
+              margin-top: 1rem;
+              cursor: pointer;
+              &:hover {
+                svg {
+                  transform: translateX(8px);
+                }
+              }
+              a {
+                text-decoration: none;
+                color: white;
+                // color: white;
+                margin-left: 3px;
+      
+                font-weight: 600;
+                letter-spacing: 1px;
+              }
+              svg {
+                color: white;
+                // color: w;
+    
+      
+      
+                transform: translateX(0px);
+                transition: 0.5s;
+                font-size: 20px;
+              }
+            
+      
+         
+          
+          }
+}

@@ -1,0 +1,218 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+.silder_opacityDiv {
+  width: 90vw;
+  height: 24rem;
+  content: "";
+  display: block;
+  position: absolute;
+  @include flexCol;
+  top: 4rem;
+  left: 2rem;
+  padding: 2rem;
+  word-wrap: break-word;
+  background: linear-gradient(
+    to right,
+    rgba(52, 152, 204, 1) 0%,
+    rgba(255, 255, 255, 0) 89%
+  );
+
+  span {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Nunito', sans-serif;
+
+  }
+
+  .silder_customText {
+    width: 55%;
+    margin: 25px 0;
+    padding-left: 0.8rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-left: 8px solid white;
+
+    span {
+      font-size: 26px;
+      font-weight: 500;
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
+  div {
+    margin-top: 0rem;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    .home_slider_buttonContainer {
+      @include ButtonCommon;
+      padding: 10px 8px;
+    }
+
+    img {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.socialMediaContainer {
+  @include flexCol;
+  gap: 2px;
+  position: fixed;
+  // position: relative;
+  right: 0;
+  bottom: 250px;
+  z-index: 95;
+  svg {
+    color: white;
+  }
+  .socialLink1 {
+    @include homePageSocialLink;
+    background: #007bb6;
+  }
+  .socialLink2 {
+    @include homePageSocialLink;
+    background: #00aced;
+  }
+  .socialLink3 {
+    @include homePageSocialLink;
+    background: #007bb6;
+  }
+  .socialLink4 {
+    @include homePageSocialLink;
+    display: none;
+
+    background: #cccccc;
+  }
+}
+
+/* Mobile Styles (up to $tablet-breakpoint) */
+@media (max-width: #{$tablet-breakpoint - 1}) {
+  .silder_opacityDiv {
+    background: none;
+    top: 2rem;
+    left: 0rem;
+    width: 100vw;
+    padding-left: 0.9rem;
+    text-align: start;
+    span {
+      font-size: 38px;
+      font-weight: 800;
+      // color: white;
+      // letter-spacing: 1px;
+      // font-family: 'Nunito', sans-serif;
+ 
+  
+    }
+    .silder_customText {
+      width: 96%;
+    
+      margin: 0px 0;
+      margin-top: 2.3rem;
+      height: 60px;
+   
+      border-left: none;
+      text-align: center;
+  
+      span {
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        letter-spacing: 1px;
+        text-align: start;
+      }
+    }
+    div {
+      margin-top: 0rem;
+  
+      font-size: 18px;
+      letter-spacing: 1px;
+      .home_slider_buttonContainer {
+        @include ButtonCommon;
+        padding: 10px 8px;
+        margin-top: 3rem;
+      }
+  
+      img {
+        // position:absol;
+        height: 120px;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+  .silder_opacityDiv {
+    // background: none;
+    // top: 2rem;
+    height: 26rem;
+    // left: 0rem;
+    // width: 100vw;
+    // padding-left: 0.9rem;
+    // text-align: start;
+    span {
+      // font-size: 38px;
+      // font-weight: 800;
+      // color: white;
+      // letter-spacing: 1px;
+      // font-family: 'Nunito', sans-serif;
+ 
+  
+    }
+    .silder_customText {
+      width: 80%;
+    
+      margin: 2rem 0;
+      // margin-top: 2.3rem;
+      // height: 60px;
+   
+      // border-left: none;
+      // text-align: center;
+  
+      span {
+        // font-size: 22px;
+        // font-weight: 500;
+        // color: white;
+        // letter-spacing: 1px;
+        // text-align: start;
+      }
+    }
+    div {
+      // margin-top: 0rem;
+  
+      // font-size: 18px;
+      // letter-spacing: 1px;
+      // .home_slider_buttonContainer {
+      //   @include ButtonCommon;
+      //   padding: 10px 8px;
+      //   margin-top: 3rem;
+      // }
+  
+      img {
+        // position:absol;
+        // height: 120px;
+        // margin-top: 1rem;
+      }
+    }
+  }
+
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+
+}
+
+

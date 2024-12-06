@@ -1,0 +1,144 @@
+@import "../../../Styles/constant";
+@import "../../../Styles/variables";
+.P_SubRouteContainer {
+  position: absolute;
+  width: 65rem;
+  height: 28rem;
+
+  @include flexCol;
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid silver;
+  visibility: hidden;
+  top: 2.9rem;
+  left: -25rem;
+  opacity: 0;
+  z-index: 99;
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+  padding-left: 2rem;
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  .P_subRouteTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1rem;
+  }
+  // .sSubRoute{
+  //   width: 100%;
+  //   margin-bottom: 10px;
+  //   padding: 5px 10px;
+  //   &:hover{
+  //     opacity: 0.8;
+  //     background: silver;
+  //     .sSubRouteDiv2{
+  //       // display: none;
+  //       // width: 10%;
+  //       svg{
+
+  //         margin-left: 1%;
+
+  //       }
+  //     }
+
+  //   }
+
+  //   display: flex;
+  //   .sSubRouteDiv1{
+  //     width: 90%;
+  //   }
+  //   .sSubRouteDiv2{
+  //     width: 10%;
+  //     svg{
+  //       font-size: 20px;
+  //       color: black;
+  //       opacity: 0.5;
+  //     }
+  //   }
+  // }
+  .P_subRouteOuterContainer {
+    width: 100%;
+    height: 90%;
+    //   background: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    a {
+      .P_subRouteLinkContainer {
+        cursor: pointer;
+
+        // background: yellow;
+        // border: 1px solid silver;
+        width: 30rem;
+        height: 170px;
+        display: flex;
+        border-bottom: 1px dotted silver;
+
+        &:hover {
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .P_subRouteLeft {
+          width: 20%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 60px;
+          }
+        }
+        .P_subRouteRight {
+          width: 80%;
+          display: flex;
+          gap: 10px;
+          flex-direction: column;
+          // background: red;
+          // height: 400px;
+          padding: 1rem 0;
+          .P_subRouteRightTitel {
+            font-size: 17px;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.9);
+          }
+          .P_subRouteRightdes {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.6);
+            line-height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+
+  // justify-content: space-between;
+}
+
+.P_Menu {
+  position: relative;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    .P_SubRouteContainer {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .P_MenuButton {
+    //   padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+    &:hover {
+      color: $green;
+      transition: 0.5s ease;
+    }
+  }
+}

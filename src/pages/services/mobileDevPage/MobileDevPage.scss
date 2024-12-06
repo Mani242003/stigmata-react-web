@@ -1,0 +1,358 @@
+@import "../../../Styles/constant";
+@import "../../../Styles/variables";
+.MobileDevPageWrapper {
+  .mobileDevPageContainer {
+    .mobileDevPageMainHeader {
+      width: 100%;
+      height: 450px;
+
+      background: url(../../../assets/mobileBg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding-left: 2rem;
+      .mobileDevPageHeaderText1 {
+        font-size: 50px;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 600;
+        opacity: 0.9;
+        line-height: 3.2rem;
+
+        font-family: "Nunito", sans-serif;
+      }
+      .mobileDevPageHeaderText2 {
+        font-size: 18px;
+        color: white;
+        // letter-spacing: 1px;
+        word-spacing: 1px;
+        font-weight: 400;
+        margin: 2rem 0;
+        width: 50%;
+      }
+      .mobileDevPageButtonContainer {
+        margin-bottom: 1.5rem;
+
+        padding: 13px 13px;
+        width: 190px;
+        border-radius: 40px;
+
+        background: $green;
+        display: flex;
+        align-items: start;
+        text-align: start;
+        gap: 8px;
+
+        margin-top: 1rem;
+        cursor: pointer;
+        &:hover {
+          svg {
+            transform: translateX(8px);
+          }
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          // color: white;
+          margin-left: 3px;
+
+          font-weight: 600;
+          letter-spacing: 1px;
+        }
+        svg {
+          color: white;
+          // color: w;
+
+          transform: translateX(0px);
+          transition: 0.5s;
+          font-size: 20px;
+        }
+      }
+    }
+    .TechnologyExpertiseContainer {
+      width: 100%;
+      // height: 300px;
+      text-align: center;
+
+      .mobileDevPageExperheaderContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+        padding-bottom: 2rem;
+        span {
+          font-size: 35px;
+          margin-bottom: 0.8rem;
+        }
+        .mobileDevPageSeperateLine {
+          height: 3px;
+          background: rgba(0, 0, 0, 0.6);
+          width: 100px;
+        }
+      }
+
+      .mobileDevPageExperMainContainer {
+        width: 100%;
+        // height: 100%;
+        height: 300px;
+        background: url(../../../assets/Free-trialbgla.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    .MobilePageSample{
+      .MobilePageSampleheader{
+        text-align: center;
+        padding-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        span{
+          text-align: center;
+          font-size: 45px;
+          font-weight: 600;
+
+        }
+        .mobilePageDivider{
+          background: rgba(0, 0, 0, 0.7);
+          height: 3px;
+          width: 200px;
+          margin-top: 1rem;
+        }
+      }
+
+    }
+    // .mobilePageFqa{
+    //   display: flex;
+    //   flex-direction: column;
+    //   padding: 1rem ;
+    //   .mobilePageFqaHeaderText{
+    //     width: 100%;
+    //     text-align: center;
+    //     font-size: 40px;
+    //     font-weight: 600;
+    //     margin-top: 2rem;
+    //     margin-bottom: 1rem;
+        
+    //   }
+    //   .mobilePageQuestion{
+    //     margin-top: 1rem;
+    //     font-size: 22px;
+    //     font-weight: 700;
+    //     letter-spacing: 1px;
+  
+    //   }
+    //   .mobilePageFqaAnswer{
+    //     margin-top: 1rem;
+    //     margin-bottom: 2rem;
+    //     font-size: 18px;
+    //     // font-weight: 700;
+    //     line-height: 1.5rem;
+  
+  
+  
+    //   }
+    //   .mobilePageFqaDivider{
+    //     width: 100%;
+    //     height: 1px;
+    //   background: rgba(0, 0,0, 0.3);
+      
+  
+  
+    //   }
+    // }
+
+  }
+}
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+  .MobileDevPageWrapper {
+    .mobileDevPageContainer {
+      .mobileDevPageMainHeader {
+        // width: 100%;
+        height: 550px;
+  
+        // background: url(../../../assets/mobileBg.jpg);
+        // background-size: cover;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: start;
+        // justify-content: center;
+        padding-left: 1rem;
+        .mobileDevPageHeaderText1 {
+          margin-top: 2rem;
+          font-size: 40px;
+          // color: white;
+          // letter-spacing: 1px;
+          // font-weight: 600;
+          // opacity: 0.9;
+          line-height: 3rem;
+  
+          // font-family: "Nunito", sans-serif;
+        }
+        .mobileDevPageHeaderText2 {
+          font-size: 18px;
+          color: white;
+          // letter-spacing: 1px;
+          word-spacing: 1px;
+          font-weight: 400;
+          margin: 1rem 0;
+          width: 80%;
+        }
+        // .mobileDevPageButtonContainer {
+        //   margin-bottom: 1.5rem;
+  
+        //   padding: 13px 13px;
+        //   width: 190px;
+        //   border-radius: 40px;
+  
+        //   background: $green;
+        //   display: flex;
+        //   align-items: start;
+        //   text-align: start;
+        //   gap: 8px;
+  
+        //   margin-top: 1rem;
+        //   cursor: pointer;
+        //   &:hover {
+        //     svg {
+        //       transform: translateX(8px);
+        //     }
+        //   }
+        //   a {
+        //     text-decoration: none;
+        //     color: white;
+        //     // color: white;
+        //     margin-left: 3px;
+  
+        //     font-weight: 600;
+        //     letter-spacing: 1px;
+        //   }
+        //   svg {
+        //     color: white;
+        //     // color: w;
+  
+        //     transform: translateX(0px);
+        //     transition: 0.5s;
+        //     font-size: 20px;
+        //   }
+        // }
+      }
+      .TechnologyExpertiseContainer {
+        width: 100%;
+        // height: 300px;
+        text-align: center;
+  
+        .mobileDevPageExperheaderContainer {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 1rem 0;
+          padding-bottom: 2rem;
+          span {
+            font-size: 35px;
+            margin-bottom: 0.8rem;
+          }
+          .mobileDevPageSeperateLine {
+            height: 3px;
+            background: rgba(0, 0, 0, 0.6);
+            width: 100px;
+          }
+        }
+  
+        .mobileDevPageExperMainContainer {
+          width: 100%;
+          // height: 100%;
+          height: 300px;
+          background: url(../../../assets/Free-trialbgla.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      .MobilePageSample{
+        .MobilePageSampleheader{
+          // text-align: center;
+          // padding-bottom: 1.5rem;
+          // display: flex;
+          // align-items: center;
+          // flex-direction: column;
+          span{
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 35px;
+            font-weight: 600;
+  
+          }
+          // .mobilePageDivider{
+          //   background: rgba(0, 0, 0, 0.7);
+          //   height: 3px;
+          //   width: 200px;
+          //   margin-top: 1rem;
+          // }
+        }
+  
+      }
+      // .mobilePageFqa{
+      //   display: flex;
+      //   flex-direction: column;
+      //   padding: 1rem ;
+      //   .mobilePageFqaHeaderText{
+      //     width: 100%;
+      //     text-align: center;
+      //     font-size: 40px;
+      //     font-weight: 600;
+      //     margin-top: 2rem;
+      //     margin-bottom: 1rem;
+          
+      //   }
+      //   .mobilePageQuestion{
+      //     margin-top: 1rem;
+      //     font-size: 22px;
+      //     font-weight: 700;
+      //     letter-spacing: 1px;
+    
+      //   }
+      //   .mobilePageFqaAnswer{
+      //     margin-top: 1rem;
+      //     margin-bottom: 2rem;
+      //     font-size: 18px;
+      //     // font-weight: 700;
+      //     line-height: 1.5rem;
+    
+    
+    
+      //   }
+      //   .mobilePageFqaDivider{
+      //     width: 100%;
+      //     height: 1px;
+      //   background: rgba(0, 0,0, 0.3);
+        
+    
+    
+      //   }
+      // }
+  
+    }
+  }
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+}

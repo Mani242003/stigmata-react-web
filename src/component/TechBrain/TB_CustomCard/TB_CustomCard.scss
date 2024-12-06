@@ -1,0 +1,196 @@
+@import "../../../Styles/constant";
+@import "../../../Styles/variables";
+.TB_CustomCard {
+  width: 15rem;
+  height: 25rem;
+  // margin-left: 13%;
+  margin: 0 20px;
+  position: relative;
+  background-image: url("../../../assets//images/Free-trialbg.webp");
+  background-size: "cover";
+  background-position: "center";
+  background-repeat: "no-repeat";
+  // background-color: rgba(255,255,255,0.05);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
+//   background-image: linear-gradient(to right, #4759DE , #D241A4);
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  .TB_CC_mainContent {
+    width: 100%;
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .TB_CC_imgContainer {
+      // background: red;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    //   gap: 1rem;
+      img {
+        width: 100px;
+        border-radius: 999px;
+      }
+      .TB_CC_name{
+    //   color: #f5f5f5; /* fallback color */
+    margin: 0.5rem 0;
+    text-align: center;
+    
+    
+
+      color: black;
+        font-weight: 800;
+
+
+      }
+      .TB_CC_position{
+        background: linear-gradient(to right, blue, #D241A4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+        text-align: center;
+        
+
+      }
+    }
+    .TB_CC_contentBox {
+    }
+    .TB_CC_socialLinks{
+      position: static;
+      bottom: 0;
+    }
+  }
+//   .TB_CC_socialLinks {
+//     position: absolute;
+//     border: 50px;
+//     display: flex;
+//     transform: translateY(40px);
+
+//     transition: 0.5s;
+//     opacity: 0.7;
+//     a {
+//       text-decoration: none;
+//     }
+//     &:hover {
+//       transform: translateY(0px);
+//       opacity: 1;
+//     }
+//   }
+}
+
+.wrapper {
+  border: 3px solid blue;
+  border-radius: 999px;
+}
+
+.container {
+  background-color: pink;
+}
+
+.barCompleted {
+  background-color: lightblue;
+  width: 80%;
+}
+
+.label {
+  font-size: 20px;
+  color: green;
+}
+
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+  .TB_CustomCard {
+    width: 21rem;
+  //   height: 25rem;
+  //   // margin-left: 13%;
+  //   margin: 0 20px;
+  //   position: relative;
+  //   background-image: url("../../../assets//images/Free-trialbg.webp");
+  //   background-size: "cover";
+  //   background-position: "center";
+  //   background-repeat: "no-repeat";
+  //   // background-color: rgba(255,255,255,0.05);
+  //   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+  //     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  //   backdrop-filter: blur(10px);
+  //   transition: transform 0.3s;
+  // //   background-image: linear-gradient(to right, #4759DE , #D241A4);
+  //   border-radius: 10px;
+  
+    // &:hover {
+    //   transform: scale(1.05);
+    // }
+    // .TB_CC_mainContent {
+    //   width: 100%;
+    //   padding: 2rem 1rem;
+    //   width: 100%;
+    //   display: flex;
+    //   flex-direction: column;
+  
+    //   .TB_CC_imgContainer {
+    //     // background: red;
+    //     width: 100%;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     color: white;
+    //   //   gap: 1rem;
+    //     img {
+    //       width: 100px;
+    //       border-radius: 999px;
+    //     }
+    //     .TB_CC_name{
+    //   //   color: #f5f5f5; /* fallback color */
+    //   margin: 0.5rem 0;
+    //   text-align: center;
+      
+      
+  
+    //     color: black;
+    //       font-weight: 800;
+  
+  
+    //     }
+    //     .TB_CC_position{
+    //       background: linear-gradient(to right, blue, #D241A4);
+    //       -webkit-background-clip: text;
+    //       -webkit-text-fill-color: transparent;
+    //       font-weight: 800;
+    //       text-align: center;
+          
+  
+    //     }
+    //   }
+    //   .TB_CC_contentBox {
+    //   }
+    //   .TB_CC_socialLinks{
+    //     position: static;
+    //     bottom: 0;
+    //   }
+    // }
+  
+  }
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+}

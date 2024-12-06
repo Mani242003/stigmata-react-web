@@ -1,0 +1,349 @@
+@import "../../../Styles/constant";
+@import "../../../Styles/variables";
+
+.ServicesCustomCardContainer {
+  width: 100%;
+  background: white;
+
+  padding: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: box-shadow 0.3s ease, background-image 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 6px solid $green;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    // background: $green;
+    background: rgb(26, 116, 233,0.9);
+  background-image: url("../../../assets/images/Free-trial.jpg.webp");
+    
+background-position: center;
+ 
+    border-top: none;
+    // border-top: 6px solid #1A74E9;
+    .Scard_bottom {
+      .ServicesTitle {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .ServiceDesContainer {
+        span {
+          color: rgba(255, 255, 255, 0.9);
+        }
+      }
+      .ServiceButtonContainer {
+        background: rgba(255, 255, 255, 1);
+
+        // margin-top: 1rem;
+        &:hover {
+          svg {
+            transform: translateX(5px);
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: $green;
+        }
+        svg {
+          color: $green;
+          transform: translateX(0px);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+
+  .Scard_bottom {
+    .ScardRight {
+      img {
+        width: 70px;
+
+        margin: 0rem;
+        margin-bottom: 10px;
+      }
+    }
+    .ServicesTitle {
+      color: rgba(5, 63, 111, 1);
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+    }
+    @include flexCol;
+    .ServiceDesContainer {
+      display: flex;
+      gap: 1rem;
+      height: 210px;
+      svg {
+        margin-top: 5px;
+        color: $green;
+      }
+      span {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 16px;
+      }
+    }
+    .ServiceButtonContainer {
+      padding: 10px 15px;
+      width: 140px;
+      border-radius: 50px;
+      background: $green;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      margin-top: 2rem;
+      cursor: pointer;
+      
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+      }
+      svg {
+        color: white;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+  .ServicesCustomCardContainer {
+    background: white;
+  
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+  
+    // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    // transition: box-shadow 0.3s ease, background-image 0.3s ease;
+    // border: 1px solid rgba(0, 0, 0, 0.2);
+    // border-top: 6px solid $green;
+    // transition: 0.3s;
+  //   &:hover {
+  //     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  //     // background: $green;
+  //     background: rgb(26, 116, 233,0.9);
+  //   background-image: url("../../../assets/images/Free-trial.jpg.webp");
+      
+  // background-position: center;
+   
+  //     border-top: none;
+  //     // border-top: 6px solid #1A74E9;
+  //     .Scard_bottom {
+  //       .ServicesTitle {
+  //         color: rgba(255, 255, 255, 0.9);
+  //       }
+  //       .ServiceDesContainer {
+  //         span {
+  //           color: rgba(255, 255, 255, 0.9);
+  //         }
+  //       }
+  //       .ServiceButtonContainer {
+  //         background: rgba(255, 255, 255, 1);
+  
+  //         // margin-top: 1rem;
+  //         &:hover {
+  //           svg {
+  //             transform: translateX(5px);
+  //           }
+  //         }
+  
+  //         a {
+  //           text-decoration: none;
+  //           color: $green;
+  //         }
+  //         svg {
+  //           color: $green;
+  //           transform: translateX(0px);
+  //           transition: 0.5s;
+  //         }
+  //       }
+  //     }
+  //   }
+  
+    .Scard_bottom {
+      .ScardRight {
+        img {
+          width: 50px;
+  
+          // margin: 0rem;
+          // margin-bottom: 10px;
+        }
+      }
+      .ServicesTitle {
+        // color: rgba(5, 63, 111, 1);
+        // font-size: 20px;
+        // font-weight: 700;
+        margin-bottom: 0.5rem;
+        // letter-spacing: 1px;
+        // text-transform: capitalize;
+      }
+      @include flexCol;
+      .ServiceDesContainer {
+        display: flex;
+        gap: 0rem;
+        height: 240px;
+        svg {
+          margin-top: 5px;
+          color: $green;
+        }
+        span {
+          color: rgba(0, 0, 0, 0.8);
+          font-size: 15px;
+        }
+      }
+      .ServiceButtonContainer {
+        padding: 10px 15px;
+        width: 140px;
+        border-radius: 50px;
+        background: $green;
+        display: flex;
+        align-items: center;
+        text-align: center;
+  
+        margin-top: 2rem;
+        cursor: pointer;
+        
+  
+        a {
+          text-decoration: none;
+          color: white;
+          font-weight: 500;
+        }
+        svg {
+          color: white;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+    .ServicesCustomCardContainer {
+      background: white;
+    
+      padding: 1rem;
+      padding-bottom: 2rem;
+      border-radius: 10px;
+    
+      // box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      // transition: box-shadow 0.3s ease, background-image 0.3s ease;
+      // border: 1px solid rgba(0, 0, 0, 0.2);
+      // border-top: 6px solid $green;
+      // transition: 0.3s;
+    //   &:hover {
+    //     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    //     // background: $green;
+    //     background: rgb(26, 116, 233,0.9);
+    //   background-image: url("../../../assets/images/Free-trial.jpg.webp");
+        
+    // background-position: center;
+     
+    //     border-top: none;
+    //     // border-top: 6px solid #1A74E9;
+    //     .Scard_bottom {
+    //       .ServicesTitle {
+    //         color: rgba(255, 255, 255, 0.9);
+    //       }
+    //       .ServiceDesContainer {
+    //         span {
+    //           color: rgba(255, 255, 255, 0.9);
+    //         }
+    //       }
+    //       .ServiceButtonContainer {
+    //         background: rgba(255, 255, 255, 1);
+    
+    //         // margin-top: 1rem;
+    //         &:hover {
+    //           svg {
+    //             transform: translateX(5px);
+    //           }
+    //         }
+    
+    //         a {
+    //           text-decoration: none;
+    //           color: $green;
+    //         }
+    //         svg {
+    //           color: $green;
+    //           transform: translateX(0px);
+    //           transition: 0.5s;
+    //         }
+    //       }
+    //     }
+    //   }
+    
+      .Scard_bottom {
+        .ScardRight {
+          img {
+            width: 50px;
+    
+            // margin: 0rem;
+            // margin-bottom: 10px;
+          }
+        }
+        .ServicesTitle {
+          // color: rgba(5, 63, 111, 1);
+          // font-size: 20px;
+          // font-weight: 700;
+          margin-bottom: 0.5rem;
+          // letter-spacing: 1px;
+          // text-transform: capitalize;
+        }
+        @include flexCol;
+        .ServiceDesContainer {
+          display: flex;
+          gap: 0rem;
+          height: 100px;
+          svg {
+            margin-top: 5px;
+            color: $green;
+          }
+          span {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 16px;
+          }
+        }
+        .ServiceButtonContainer {
+          padding: 10px 15px;
+          width: 140px;
+          border-radius: 50px;
+          background: $green;
+          display: flex;
+          align-items: center;
+          text-align: center;
+    
+          margin-top: 2rem;
+          cursor: pointer;
+          
+    
+          a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+          }
+          svg {
+            color: white;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+}

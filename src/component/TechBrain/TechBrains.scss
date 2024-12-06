@@ -1,0 +1,206 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+
+.techBrains-wrapper {
+  width: 100%;
+  // background: #f3f5f9;
+  background: #F5F9FC;
+
+  padding-bottom: 3rem;
+  // background: #F3F5F9;
+
+  .TB_conatiner {
+    .TB_headerConatiner {
+      display: flex;
+      flex-direction: column;
+      // padding: 1rem;
+      padding: 1.5rem 0;
+      padding-bottom: 2rem;
+      text-align: center;
+      .TB_headerSmallTitel {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.7);
+      }
+      .TB_headerBigTitel {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 800;
+        color: #f5f5f5; /* fallback color */
+        background: linear-gradient(to right, #0565fe, #d241a4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    .TB_outerSliderCintainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      justify-content: center;
+      .TB_outerSlider_leftArrow {
+        text-align: center;
+
+        button {
+          margin-top: 10px;
+          text-align: center;
+
+          border: 1px solid silver;
+          background: none;
+          outline: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 100px;
+          //   margin-right: 20px;
+          svg {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 20px;
+          }
+        }
+      }
+      .TB_sliderContainer {
+        width: 100%;
+        
+        // background: red;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        // margin: 1rem;
+      }
+      .TB_outerSlider_RightArrow {
+        text-align: center;
+
+        button {
+          margin-top: 10px;
+          text-align: center;
+
+          border: 1px solid silver;
+          background: none;
+          outline: none;
+          width: 35px;
+          height: 35px;
+          border-radius: 100px;
+          //   margin-right: 20px;
+          svg {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+ 
+.techBrains-wrapper {
+  width: 100%;
+  // background: #f3f5f9;
+  background: #F5F9FC;
+
+  padding-bottom: 3rem;
+  // background: #F3F5F9;
+
+  .TB_conatiner {
+    .TB_headerConatiner {
+      display: flex;
+      flex-direction: column;
+      // padding: 1rem;
+      // padding: 1.5rem 0;
+      // padding-bottom: 2rem;
+      // text-align: center;
+      // .TB_headerSmallTitel {
+      //   text-align: center;
+      //   font-size: 18px;
+      //   font-weight: 700;
+      //   color: rgba(0, 0, 0, 0.7);
+      // }
+      .TB_headerBigTitel {
+        font-size: 30px;
+        // text-align: center;
+        // font-weight: 800;
+        // color: #f5f5f5; /* fallback color */
+        // background: linear-gradient(to right, #0565fe, #d241a4);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+      }
+    }
+    // .TB_outerSliderCintainer {
+    //   width: 100%;
+    //   display: flex;
+    //   justify-content: space-around;
+    //   align-items: center;
+    //   justify-content: center;
+    //   .TB_outerSlider_leftArrow {
+    //     text-align: center;
+
+    //     button {
+    //       margin-top: 10px;
+    //       text-align: center;
+
+    //       border: 1px solid silver;
+    //       background: none;
+    //       outline: none;
+    //       width: 35px;
+    //       height: 35px;
+    //       border-radius: 100px;
+    //       //   margin-right: 20px;
+    //       svg {
+    //         color: rgba(0, 0, 0, 0.8);
+    //         font-size: 20px;
+    //       }
+    //     }
+    //   }
+    //   .TB_sliderContainer {
+    //     width: 100%;
+        
+    //     // background: red;
+    //     overflow: hidden;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     flex-wrap: wrap;
+    //     gap: 1rem;
+    //     // margin: 1rem;
+    //   }
+    //   .TB_outerSlider_RightArrow {
+    //     text-align: center;
+
+    //     button {
+    //       margin-top: 10px;
+    //       text-align: center;
+
+    //       border: 1px solid silver;
+    //       background: none;
+    //       outline: none;
+    //       width: 35px;
+    //       height: 35px;
+    //       border-radius: 100px;
+    //       //   margin-right: 20px;
+    //       svg {
+    //         color: rgba(0, 0, 0, 0.8);
+    //         font-size: 20px;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+}

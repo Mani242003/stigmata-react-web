@@ -1,0 +1,159 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+.contactPage_wrapper{
+    .contactPage_container{
+        .contactPageMainHeader{
+            width: 100%;
+            height: 450px;
+            background: url(../../assets/VectorcontactBg1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .contactPageHeaderText1{
+                font-size: 55px;
+                font-weight: 400;
+                color: white;
+                letter-spacing: 1px;
+                
+
+            }
+            .contactPageHeaderText2{
+                font-size: 35px;
+                font-weight: 600;
+                color: white;
+
+
+            }
+            .contactPageMainSocialContainer{
+                display: flex;
+                gap: 4rem;
+                margin: 3rem 0;
+                svg{
+                    font-size: 40px;
+                    color: white;
+                }
+
+            }
+        }
+
+    }
+   
+
+}
+
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+    .contactPage_wrapper{
+        .contactPage_container{
+            .contactPageMainHeader{
+                // width: 100%;
+                // height: 450px;
+                // background: url(../../assets/VectorcontactBg1.jpg);
+                // background-size: cover;
+                // background-position: center;
+                // background-repeat: no-repeat;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                // flex-direction: column;
+                padding: 0 1rem;
+                .contactPageHeaderText1{
+                    font-size: 37px;
+                    font-weight: 400;
+                    color: white;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    
+    
+                }
+                .contactPageHeaderText2{
+                    font-size: 25px;
+                    font-weight: 600;
+                    color: white;
+                    text-align: center;
+                margin-top: 2rem;
+    
+    
+                }
+                .contactPageMainSocialContainer{
+                    display: flex;
+                    gap: 4rem;
+                    margin: 3rem 0;
+                    svg{
+                        font-size: 40px;
+                        color: white;
+                    }
+    
+                }
+            }
+    
+        }
+       
+    
+    }
+    
+  }
+  
+  /* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+  @media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+ 
+    .contactPage_wrapper{
+        .contactPage_container{
+            .contactPageMainHeader{
+                // width: 100%;
+                // height: 450px;
+                // background: url(../../assets/VectorcontactBg1.jpg);
+                // background-size: cover;
+                // background-position: center;
+                // background-repeat: no-repeat;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                // flex-direction: column;
+                .contactPageHeaderText1{
+                    font-size: 55px;
+                    font-weight: 400;
+                    color: white;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    
+    
+                }
+                .contactPageHeaderText2{
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: white;
+                    margin-top: 1rem;
+    
+    
+                }
+                .contactPageMainSocialContainer{
+                    display: flex;
+                    gap: 4rem;
+                    margin: 3rem 0;
+                    svg{
+                        font-size: 40px;
+                        color: white;
+                    }
+    
+                }
+            }
+    
+        }
+       
+    
+    }
+}
+  
+  /* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+  @media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+  }
+  
+  /* Large Screen Styles ($large-screen-breakpoint and up) */
+  @media (min-width: #{$large-screen-breakpoint}) {
+  }

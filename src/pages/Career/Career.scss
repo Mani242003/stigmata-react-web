@@ -1,0 +1,701 @@
+@import "../../Styles/constant";
+@import "../../Styles/variables";
+
+.Career_w {
+  .Carerr_c {
+    .CarerrHeader {
+      .contactPageMainHeader {
+        width: 100%;
+        height: 350px;
+        background: url(../../assets/CarrerPageBg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .contactPageHeaderText1 {
+          font-size: 75px;
+          font-weight: 600;
+          color: white;
+          letter-spacing: 1px;
+        }
+        .contactPageHeaderText2 {
+          font-size: 35px;
+          font-weight: 600;
+          color: white;
+        }
+        .contactPageMainSocialContainer {
+          display: flex;
+          gap: 4rem;
+          margin: 3rem 0;
+          svg {
+            font-size: 40px;
+            color: white;
+          }
+        }
+      }
+    }
+
+    .JoinContent_S {
+      display: flex;
+      flex-direction: column;
+      padding-top: 4rem;
+      padding-left: 2rem;
+      .JoinContentSection1 {
+        display: flex;
+        .JoinContentSection1Left {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 0 2rem;
+          .CareerTitel2 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-weight: 700;
+          }
+          .CareerDesText {
+            font-size: 18px;
+            // font-weight: 00;
+            line-height: 2.5rem;
+            word-spacing: 3px;
+            margin-top: 1rem;
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+        .JoinContentSection1Right {
+          flex: 1;
+
+          background-image: url(../../assets//images//peopple.jpg);
+          background-repeat: no-repeat;
+
+          height: 20rem;
+        }
+      }
+      .JoinContentSection2 {
+        margin: 0rem 4rem;
+        margin-top: 2rem;
+        padding: 3rem;
+        background: #f1f2f5;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        .cloudMigrateSection2Header {
+          font-size: 35px;
+          font-weight: 700;
+          margin-bottom: 2rem;
+          //   display: flex;
+        }
+        .cloudMigrateSection2innerConatiner {
+          width: 100%;
+          display: flex;
+          gap: 2rem;
+          padding: 0rem 3rem;
+          .cloudMigrateSection2innerLeft {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-top: 1.5rem;
+            .cloudMigrateSection1LeftBottomContainer {
+              display: flex;
+              align-items: start;
+              gap: 1rem;
+
+              img {
+                margin-top: 5px;
+                width: 20px;
+              }
+              span {
+                text-align: start;
+                font-size: 18px;
+                line-height: 1.5rem;
+                span {
+                  font-weight: 800;
+                  letter-spacing: 1px;
+                }
+              }
+            }
+          }
+          .cloudMigrateSection2innerRight {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            margin-top: 1rem;
+            .cloudMigrateSection1LeftBottomContainer {
+              display: flex;
+              align-items: start;
+              gap: 1rem;
+
+              img {
+                margin-top: 5px;
+                width: 20px;
+              }
+              span {
+                text-align: start;
+                font-size: 18px;
+                line-height: 1.5rem;
+                span {
+                  font-weight: 800;
+                  letter-spacing: 1px;
+                }
+              }
+            }
+          }
+        }
+
+        .cloudMigrateSection2BottomContainer {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          .cloudMigrateSection2BottomText {
+            font-size: 18px;
+            margin-top: 3rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+          }
+          .cloudMigrateSection2BottomButton {
+            margin-bottom: 1.5rem;
+
+            padding: 13px 13px;
+            width: 280px;
+            border-radius: 40px;
+
+            background: $green;
+            display: flex;
+            align-items: start;
+            text-align: start;
+            gap: 8px;
+
+            margin-top: 1rem;
+            cursor: pointer;
+            &:hover {
+              svg {
+                transform: translateX(8px);
+              }
+            }
+            a {
+              text-decoration: none;
+              color: white;
+              // color: white;
+              margin-left: 3px;
+
+              font-weight: 600;
+              letter-spacing: 1px;
+            }
+            svg {
+              color: white;
+              // color: w;
+
+              transform: translateX(0px);
+              transition: 0.5s;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .JoinContentSection3 {
+        display: flex;
+        margin-top: 4rem;
+        padding: 0 2rem;
+        padding-right: 4.5rem;
+
+        .JoinContentSection1Left {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 0 2rem;
+          .CareerTitel2 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-weight: 700;
+          }
+          .CareerDesText {
+            font-size: 18px;
+            // font-weight: 00;
+            line-height: 2.5rem;
+            word-spacing: 3px;
+            margin-top: 1rem;
+            a {
+              color: $green;
+            }
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+        .JoinContentSection1Right {
+          flex: 1;
+
+          background-image: url(../../assets/newEntite.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          height: 20rem;
+        }
+      }
+      .JoinContentSection4 {
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: row-reverse;
+
+        .JoinContentSection1Left {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 0 2rem;
+          .CareerTitel2 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-weight: 700;
+            
+          }
+          .CareerDesText {
+            font-size: 18px;
+            // font-weight: 00;
+            line-height: 2.5rem;
+            word-spacing: 3px;
+            margin-top: 1rem;
+            a {
+                color: $green;
+              }
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+        .JoinContentSection1Right {
+          flex: 1;
+
+          background-image: url(../../assets/interImg.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          height: 20rem;
+        }
+      }
+      .JoinContentSection5{
+
+        display: flex;
+        margin-top: 5rem;
+        padding-right: 2rem;
+
+        .JoinContentSection1Left {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          padding: 0 2rem;
+          padding-right: 2rem;
+          .CareerTitel2 {
+            font-size: 30px;
+            letter-spacing: 1px;
+            font-weight: 700;
+          }
+          .CareerDesText {
+            font-size: 18px;
+            // font-weight: 00;
+            line-height: 2.5rem;
+            word-spacing: 3px;
+            margin-top: 1rem;
+            a {
+                color: $green;
+              }
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+        .JoinContentSection1Right {
+          flex: 1;
+          
+
+          background-image: url(../../assets/images//StayConnected.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          height: 20rem;
+        }
+      }
+
+      // .CareerTitel{
+
+      //     font-size:45px ;
+      //     font-weight: 800;
+      //     margin-bottom: 1.5rem;
+      //     letter-spacing: 1px;
+
+      // }
+      // .CareerTitel2{
+      //     font-size: 19px;
+      //     font-weight: 700;
+
+      // }
+      // .CareerDesText{
+      //     font-size: 18px;
+      //     font-weight: 500;
+      //     line-height: 1.5rem;
+      //     word-spacing: 1px;
+      //     margin-top: 1rem;
+      //     span{
+      //         font-weight: 700;
+      //     }
+
+      // }
+    }
+  }
+}
+
+@media (max-width: #{$tablet-breakpoint - 1}) {
+  .Career_w {
+    .Carerr_c {
+      .CarerrHeader {
+        .contactPageMainHeader {
+          // width: 100%;
+          height: 250px;
+          // background: url(../../assets/CarrerPageBg.jpg);
+          // background-size: cover;
+          // background-position: center;
+          // background-repeat: no-repeat;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          // flex-direction: column;
+          .contactPageHeaderText1 {
+            font-size: 35px;
+            // font-weight: 600;
+            // color: white;
+            // letter-spacing: 1px;
+            margin-left: 1rem;
+          }
+          // .contactPageHeaderText2 {
+          //   font-size: 35px;
+          //   font-weight: 600;
+          //   color: white;
+          // }
+          // .contactPageMainSocialContainer {
+          //   display: flex;
+          //   gap: 4rem;
+          //   margin: 3rem 0;
+          //   svg {
+          //     font-size: 40px;
+          //     color: white;
+          //   }
+          // }
+        }
+      }
+  
+      .JoinContent_S {
+        // display: flex;
+        // flex-direction: column;
+        // padding-top: 4rem;
+        padding-left: 0rem;
+        .JoinContentSection1 {
+          // display: flex;
+          flex-direction: column;
+          
+          .JoinContentSection1Left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 0 1rem;
+            .CareerTitel2 {
+              font-size: 30px;
+              letter-spacing: 1px;
+              font-weight: 700;
+            }
+            .CareerDesText {
+              font-size: 18px;
+              // font-weight: 00;
+              line-height: 2rem;
+              word-spacing: 3px;
+              margin-top: 1rem;
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+          .JoinContentSection1Right {
+            flex: 1;
+  display: none;
+            background-image: url(../../assets//images//peopple.jpg);
+            background-repeat: no-repeat;
+  
+            height: 20rem;
+          }
+        }
+        .JoinContentSection2 {
+          margin: 0rem 1rem;
+          margin-top: 2rem;
+          // background: #f1f2f5;
+          // text-align: center;
+          // display: flex;
+          // flex-direction: column;
+          padding: 2rem 0rem;
+          .cloudMigrateSection2Header {
+            font-size: 30px;
+            // font-weight: 700;
+            margin-bottom: 0rem;
+            //   display: flex;
+          }
+          .cloudMigrateSection2innerConatiner {
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            padding: 0rem 1rem;
+            flex-direction: column;
+            
+            .cloudMigrateSection2innerLeft {
+              display: flex;
+              flex-direction: column;
+              flex: 1;
+              margin-top: 1.5rem;
+              .cloudMigrateSection1LeftBottomContainer {
+                display: flex;
+                align-items: start;
+                gap: 1rem;
+  
+                img {
+                  margin-top: 5px;
+                  width: 20px;
+                }
+                span {
+                  text-align: start;
+                  font-size: 18px;
+                  line-height: 1.5rem;
+                  span {
+                    font-weight: 800;
+                    letter-spacing: 1px;
+                  }
+                }
+              }
+            }
+            .cloudMigrateSection2innerRight {
+              display: flex;
+              flex-direction: column;
+              flex: 1;
+              margin-top: 1rem;
+              .cloudMigrateSection1LeftBottomContainer {
+                display: flex;
+                align-items: start;
+                gap: 1rem;
+  
+                img {
+                  margin-top: 5px;
+                  width: 20px;
+                }
+                span {
+                  text-align: start;
+                  font-size: 18px;
+                  line-height: 1.5rem;
+                  span {
+                    font-weight: 800;
+                    letter-spacing: 1px;
+                  }
+                }
+              }
+            }
+          }
+  
+          .cloudMigrateSection2BottomContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .cloudMigrateSection2BottomText {
+              font-size: 18px;
+              margin-top: 3rem;
+              font-weight: 600;
+              margin-bottom: 0.8rem;
+            }
+            .cloudMigrateSection2BottomButton {
+              margin-bottom: 1.5rem;
+  
+              padding: 13px 13px;
+              width: 280px;
+              border-radius: 40px;
+  
+              background: $green;
+              display: flex;
+              align-items: start;
+              text-align: start;
+              gap: 8px;
+  
+              margin-top: 1rem;
+              cursor: pointer;
+              &:hover {
+                svg {
+                  transform: translateX(8px);
+                }
+              }
+              a {
+                text-decoration: none;
+                color: white;
+                // color: white;
+                margin-left: 3px;
+  
+                font-weight: 600;
+                letter-spacing: 1px;
+              }
+              svg {
+                color: white;
+                // color: w;
+  
+                transform: translateX(0px);
+                transition: 0.5s;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .JoinContentSection3 {
+          display: flex;
+          margin-top: 0rem;
+          padding: 0 0rem;
+          padding-right: 0rem;
+          flex-direction: column;
+          margin-top: 2rem;
+  
+          .JoinContentSection1Left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 0 1rem;
+            // .CareerTitel2 {
+            //   font-size: 30px;
+            //   letter-spacing: 1px;
+            //   font-weight: 700;
+            // }
+            .CareerDesText {
+              font-size: 18px;
+              // font-weight: 00;
+              line-height: 2rem;
+              // word-spacing: 3px;
+              // margin-top: 1rem;
+              // a {
+              //   color: $green;
+              // }
+              // span {
+              //   font-weight: 700;
+              // }
+            }
+          }
+          .JoinContentSection1Right {
+            // flex: 1;
+  display: none;
+            // background-image: url(../../assets/newEntite.jpg);
+            // background-size: cover;
+            // background-position: center;
+            // background-repeat: no-repeat;
+  
+            // height: 20rem;
+          }
+        }
+        .JoinContentSection4 {
+          display: flex;
+          margin-top: 2rem;
+          flex-direction: row-reverse;
+  
+          .JoinContentSection1Left {
+            // flex: 1;
+            // display: flex;
+            // flex-direction: column;
+            padding: 0 1rem;
+            .CareerTitel2 {
+              font-size: 30px;
+              letter-spacing: 1px;
+              font-weight: 700;
+              
+            }
+            .CareerDesText {
+              font-size: 18px;
+              // font-weight: 00;
+              line-height: 2rem;
+              word-spacing: 3px;
+              margin-top: 1rem;
+              a {
+                  color: $green;
+                }
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+          .JoinContentSection1Right {
+            // flex: 1;
+            display: none;
+  
+            // background-image: url(../../assets/interImg.jpg);
+            // background-size: cover;
+            // background-position: center;
+            // background-repeat: no-repeat;
+  
+            // height: 20rem;
+          }
+        }
+        .JoinContentSection5{
+  
+          display: flex;
+          margin-top: 2rem;
+  
+          .JoinContentSection1Left {
+            // flex: 1;
+            // display: flex;
+            // flex-direction: column;
+            padding: 0 1rem;
+            padding-right: 2rem;
+            .CareerTitel2 {
+              font-size: 30px;
+              letter-spacing: 1px;
+              font-weight: 700;
+            }
+            .CareerDesText {
+              font-size: 18px;
+              // font-weight: 00;
+              line-height: 2rem;
+              word-spacing: 3px;
+              margin-top: 1rem;
+              a {
+                  color: $green;
+                }
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+          .JoinContentSection1Right {
+            // flex: 1;
+            display: none;
+            
+  
+            // background-image: url(../../assets/images//StayConnected.jpg);
+            // background-size: cover;
+            // background-position: center;
+            // background-repeat: no-repeat;
+  
+            // height: 20rem;
+          }
+        }
+  
+      
+      }
+    }
+  }
+}
+
+/* Tablet Styles ($tablet-breakpoint to $desktop-breakpoint) */
+@media (min-width: #{$tablet-breakpoint}) and (max-width: #{$desktop-breakpoint - 1}) {
+}
+
+/* Desktop Styles ($desktop-breakpoint to $large-screen-breakpoint) */
+@media (min-width: #{$desktop-breakpoint}) and (max-width: #{$large-screen-breakpoint - 1}) {
+}
+
+/* Large Screen Styles ($large-screen-breakpoint and up) */
+@media (min-width: #{$large-screen-breakpoint}) {
+}
