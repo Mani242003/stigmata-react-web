@@ -1,9 +1,14 @@
 // eslint.config.js
 import { FlatCompat } from '@eslint/eslintrc';
 
-const compat = new FlatCompat();
+const compat = new FlatCompat({
+  baseDirectory: import.meta.dirname,
+});
 
 export default [
+  {
+    ignores: ['build/**', 'dist/**', 'node_modules/**']
+  },
   ...compat.config({
     extends: ['eslint:recommended', 'plugin:react/recommended'],
     parser: '@babel/eslint-parser',
@@ -26,7 +31,8 @@ export default [
       },
     },
     rules: {
-      // Add your custom rules here
+      'react/react-in-jsx-scope': 'off',
+      'react/prop-types': 'off'
     },
   }),
 ];
