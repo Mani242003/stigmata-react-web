@@ -10,7 +10,7 @@ import brain9 from "./assets/images/brains/brain9.jpeg";
 import brain10 from "./assets/images/brains/brain10.jpeg";
 import avatar from "./assets/images/brains/avatar9.jpg";
 import TB_new1 from "./assets/images/brains/TB_new1.jpeg";
-import TB_new2 from "./assets/images/brains/TB_new2.jpeg";
+import logesh from "./assets/images/brains/logesh.jpg";
 import TB_new3 from "./assets/images/brains/TB_new3.jpg";
 import SathishImg from "./assets/images/brains/Sathish.jpg";
 import Mahendran from "./assets/images/brains/Mahendran.jpg";
@@ -374,7 +374,7 @@ export const ourBrains = [
     id: 12,
     name: "Logeshwaran",
     position: "Full Stack Developer",
-    img: TB_new2,
+    img: logesh,
 
     skills: [
       {
