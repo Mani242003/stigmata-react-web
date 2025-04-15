@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 import GoToTop from "./component/GoToTop/GoToTop";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
-import ScrollToTop1 from "./component/ScrollToTop/ScrollToTop";
+// import ScrollToTop1 from "./component/ScrollToTop/ScrollToTop";
 
 // Lazy load components
 const Home = lazy(() => import("./pages/home/home"));
@@ -70,49 +70,7 @@ const App = () => {
         <ScrollToTop smooth />
       
 
-      {/* <ManiAPI /> */}
-      {/* <div
-        className="scroll-to-top-container"
-        style={{ position: "fixed", left: "0", bottom: "20px", zIndex: "1000" }}
-      >
-      </div> */}
-
-      {/* <CookieConsent
-        location="bottom"
-        buttonText="OK"
-        cookieName="myAwesomeCookieName2"
-        style={{
-          background: "#1A74E9",
-          width: "75%",
-          borderRadius: "5px",
-          margin: "10px",
-        }}
-        buttonStyle={{
-          color: "white",
-          background: "#1A74E9",
-          border: "1px solid white",
-          fontSize: "15px",
-          padding: "8px 13px",
-          borderRadius: "5px",
-          fontWeight: "500",
-          marginRight: "3rem",
-        }}
-        expires={150}
-      >
-        <span
-          style={{
-            color: "white",
-          }}
-        >
-          {" "}
-          We use cookies to deliver the best user experience. By using our
-          website, you agree to our{" "}
-          <Link style={{ color: "white" }} to="/cookie-policy">
-            cookie policy
-          </Link>
-          .
-        </span>
-      </CookieConsent> */}
+      
 
       <Suspense fallback={<LoadingSpinner />}>
         <Routes>
@@ -132,7 +90,7 @@ const App = () => {
 
           <Route path="/artificial-intelligence" element={<AIPage />} />
           <Route path="/software-development" element={<SoftwarePage />} />
-          <Route path="/software-development" element={<SoftwarePage />} />
+          {/* <Route path="/software-development" element={<SoftwarePage />} /> */}
 
           <Route path="/careers" element={<Career />} />
           <Route path="/cookie-policy" element={<Policy />} />

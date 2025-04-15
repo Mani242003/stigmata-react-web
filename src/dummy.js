@@ -1,22 +1,6 @@
 
 
-// export const imageSlider =[
-//   {
-//     url:'sli12.jpg',
-//     title:'loremmmmm',
-//     body:'loremxxxxxxxxx'
-//   },
-//   {
-//     url:'sli12.jpg',
-//     title:'loremmmmm',
-//     body:'loremxxxxxxxxx'
-//   },
-//   {
-//     url:'sli12.jpg',
-//     title:'loremmmmm',
-//     body:'lorem'
-//   }
-// ]
+
 
 
 

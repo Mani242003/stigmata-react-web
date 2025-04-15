@@ -33,6 +33,7 @@ import news11 from "../../assets/images/news/img2.jpg";
 
 
 import { Link } from "react-router-dom";
+import LinkedInPosts from "../LinkedInPosts";
 
 const News = () => {
   const settings = {
@@ -206,6 +207,7 @@ Ordinary person with extraordinary dreams 🔥🔥"
           
       
         </Slider>
+        {/* <LinkedInPosts /> */}
       </div>
     </div>
   );

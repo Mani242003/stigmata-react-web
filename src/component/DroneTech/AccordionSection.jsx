@@ -66,14 +66,14 @@ const AccordionSection = () => {
         <div className="accordion_left_img1">
           {/* <img src={faqBig} alt="" /> */}
 
-          <ReactPlayer
+          {/* <ReactPlayer
             width="600px"
             height="400px"
             url="https://youtu.be/zeOgk6KQAiY?si=aJAjxLV7UFo45hfy"
             //  playing={true} // Enable autoplay
 
             muted={true}
-          />
+          /> */}
         </div>
 
         <div className="accordion_left">

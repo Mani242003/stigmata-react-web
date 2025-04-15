@@ -26,13 +26,11 @@ const ProductSlider = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 1000, // Adjusted for smoother slide transitions
-    // autoplay: true,
-    autoplaySpeed: 4000, // Adjusted for smoother autoplay transitions
+    speed: 1000, 
+    autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // beforeChange: (current, next) => setCurrentSlide(next),
-    // pauseOnHover: true, // Pause autoplay on hover
+  
   };
   return (
     <section className="P_S-wrapper">
@@ -174,7 +172,7 @@ const ProductSlider = () => {
         </div>
         <div className="productBackground">
           <div className="video_header">
-            <span data-aos="fade-up">
+            <span >
               Happy customers. Energized employees. <br /> That’s impact.
             </span>
           </div>
