@@ -38,13 +38,13 @@ const Footer = () => {
             <Link to="/cloud-migration">Cloud Migration</Link>
 
           </div>
-          <div className="F_subSection2.2 F_subSection2">
+          {/* <div className="F_subSection2.2 F_subSection2">
             <span className="F_subSection2Titel">Our Product</span>
             <Link to="https://clousec.io/">ClouSec</Link>
             <Link>Happiediner</Link>
             <Link>PII Protector</Link>
            
-          </div>
+          </div> */}
           <div className="F_subSection2.3 F_subSection2">
             <span className="F_subSection2Titel">Comapany</span>
             <Link to="/">Home</Link>
@@ -99,7 +99,7 @@ const Footer = () => {
 
         <div className="footerSection4">
           <img src={logo} alt="" />
-          <span className="f_Section4CopyRightsText">© 2024, Stigmata Techno Solution. Ltd. All Rights Reserved.</span>
+          <span className="f_Section4CopyRightsText">&copy; {new Date().getFullYear()} Stigmata Techno Solutions. All rights reserved.</span>
         </div>
       </div>
     </section>

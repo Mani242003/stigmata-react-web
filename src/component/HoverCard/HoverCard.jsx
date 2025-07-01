@@ -19,6 +19,10 @@ import img13 from "../../assets/images/trustCustomer/L14.png";
 import img14 from "../../assets/images/trustCustomer/L15.png";
 import img15 from "../../assets/images/trustCustomer/L16.jpg";
 import img16 from "../../assets/images/trustCustomer/L17.jpg";
+import img20 from "../../assets/images/trustCustomer/c20.png";
+import img21 from "../../assets/images/trustCustomer/c21.png";
+import img22 from "../../assets/images/trustCustomer/c22.png";
+import img23 from "../../assets/images/trustCustomer/l20.png";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -53,6 +57,8 @@ function SamplePrevArrow(props) {
 
 const HoverCard = () => {
   const images = [
+   
+
     { img: img8 },
 
     { img: img2 },
@@ -84,6 +90,11 @@ const HoverCard = () => {
     { img: img3 },
 
     { img: img15, w: 100 },
+
+    { img: img20, w: 90 },
+    { img: img21, w: 140 },
+    { img: img22, w: 140 },
+       { img: img23, w: 140 }
 
     // { img: logo1 },
   ];

@@ -83,8 +83,8 @@ const Drawer = ({ isOpen, toggleDrawer }) => {
                   <Link to="https://clousec.io/">ClouSec</Link>
                   <div></div>
                   <Link to="https://clousec.io/">Happiediner</Link>
-                  <div></div>
-                  <Link to="https://clousec.io/">PII Protector</Link>
+                  {/* <div></div> */}
+                  {/* <Link to="https://clousec.io/">PII Protector</Link> */}
 
                   <div className="customDiv"></div>
                 </div>

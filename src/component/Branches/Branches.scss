@@ -40,8 +40,18 @@
               margin-top: 10px;
             }
           }
-        .profileConainer{
-            display: flex;
+        
+           .profileConainer {
+  width: 100%;
+  .slick-slider {
+    width: 100%;
+  }
+
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+
             .B_CustomCardContainer{
                 width: 350px;
                 height: 410px;

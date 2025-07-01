@@ -17,6 +17,7 @@ import img11 from "../../assets/images/trustCustomer/11.png";
 import img12 from "../../assets/images/trustCustomer/L1213.png";
 import img13 from "../../assets/images/trustCustomer/L14.png";
 import img14 from "../../assets/images/trustCustomer/L15.png";
+// import img20 from "../../assets/images/trustCustomer/L20.png";
 // import img15 from "../../assets/images/trustCustomer/L16.jpg";
 // import img16 from "../../assets/images/trustCustomer/L17.jpg";
 import Slider from "react-slick";
@@ -77,6 +78,7 @@ const HoverCard = () => {
     // { img: logo1 },
 
     { img: img14 },
+    // { img: img20 },
     // { img: img10, w: 100 },
     // { img: img9 },
 

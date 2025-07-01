@@ -48,7 +48,16 @@ const ContactUs = () => {
     <section className="contactUsWrapper">
       <div className="contactUsContainer">
         <div className="contactUsLeftContainer">
-          <YouTube videoId="yJSWMYG8j-A" opts={opts} />
+          {/* <YouTube videoId="yJSWMYG8j-A" opts={opts} /> */}
+          <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/yJSWMYG8j-A"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
         </div>
         <div className="contactUsRightContainer">
           <span className="contactUsRightSmallText">Reach Out Us</span>

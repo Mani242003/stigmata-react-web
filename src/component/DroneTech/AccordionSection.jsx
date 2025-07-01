@@ -66,14 +66,14 @@ const AccordionSection = () => {
         <div className="accordion_left_img1">
           {/* <img src={faqBig} alt="" /> */}
 
-          {/* <ReactPlayer
+          <ReactPlayer
             width="600px"
             height="400px"
-            url="https://youtu.be/zeOgk6KQAiY?si=aJAjxLV7UFo45hfy"
+            url="https://www.youtube.com/watch?v=zeOgk6KQAiY"
             //  playing={true} // Enable autoplay
 
             muted={true}
-          /> */}
+          />
         </div>
 
         <div className="accordion_left">
@@ -102,7 +102,7 @@ const AccordionSection = () => {
               cutting-edge drone video analysis tool.
             </span>
             <div className="P_S-linkContainer">
-              <Link to="https://youtu.be/zeOgk6KQAiY?si=nFicPDO--f_GTOty">
+              <Link to="https://www.youtube.com/watch?v=zeOgk6KQAiY">
                 Know more{" "}
               </Link>
 
@@ -118,10 +118,16 @@ const AccordionSection = () => {
           <span> Drone Video Analysis for Construction Progress</span>
         </div>
         <div className="ResponsiveDroneTechVideo">
-          <YouTube
-            videoId="zeOgk6KQAiY"
-            opts={opts}
-          />
+         
+           <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/zeOgk6KQAiY"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
         </div>
         <div className="ResponsiveDroneTechDes">
         <span className="accordion_left_text1">

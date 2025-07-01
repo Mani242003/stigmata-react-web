@@ -13,6 +13,7 @@ import { FaChevronRight } from "react-icons/fa";
 import Video from "./Video/Video";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import {productsData} from "../../constant"
 
 const ProductSlider = () => {
   let sliderRef = useRef(null);
@@ -26,11 +27,12 @@ const ProductSlider = () => {
     dots: true,
     arrows: false,
     infinite: true,
-    speed: 1000, 
-    autoplaySpeed: 4000,
+    speed: 1000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-  
+    autoplay: true,
+
   };
   return (
     <section className="P_S-wrapper">
@@ -192,47 +194,23 @@ const ProductSlider = () => {
                 sliderRef = slider;
               }}
             >
-              <div>
-                <Video
-                  key={1}
-                  num="01"
-                  name="ClouSec"
-                  des="ClouSec is the 1st AI based CSPM (Cloud Security Posture Management) tool with CCOE (Cloud Center of Excellence) concepts to provide significant cloud infrastructure insights through Security misconfigurations, Vulnerabilities, Threats, Comprehensive account view, Configuration issues during account setup, Cost management, Asset management, Periodic audit of user mapping to cloud accounts (remove / retain) with audit log and Cost management features."
-                  title="Modernize Cloud Security. Outsmart Attackers."
-                  //                   des="ClouSec is the 1st AI based CSPM (Cloud Security Posture Management) tool with CCOE (Cloud Center of Excellence) concepts to provide significant cloud infrastructure insights through Security misconfigurations, Vulnerabilities, Threats, Comprehensive account view, Configuration issues, Asset management, Periodic audit of user mapping to cloud accounts (remove / retain) and Cost management features.
-                  // centralised, integrated approach enabling
-                  // security misconfigurations, cost
-                  // management, comprehensive account
-                  // view, cloud asset management with
-                  // extensive logs"
+              {productsData && productsData.length > 0 ? (
+                productsData.map((video) => (
+                  <div key={video.key}>
+                    <Video
+                      title={video.title}
+                      des={video.des}
+                      list={video.list}
+                      link={video.link}
+                      url={video.url}
+                      des1 = {video.des1}
+                    />
+                  </div>
+                ))
+              ) : (
+                <p>No videos available</p>
+              )}
 
-                  link="-vLYTijz370"
-                  url="https://clousec.io/"
-                />
-              </div>
-              <div>
-                <Video
-                  key={2}
-                  num="02"
-                  name="Happiedineer"
-                  title="Modernize your Restaurants with Automation & Data driven recommendation."
-                  des="Happiedinner is a Light weight Serverless architecture framework Providing
-                  digitalized Wow experience to end customers through, Digital menu's with ordering, Data Driven Recommendation, Digitalized Kitchen's, Last minute deals, Digital Payments."
-                  link="jEwftk8SNuA"
-                  url="https://clousec.io/"
-                />
-              </div>
-              <div>
-                <Video
-                  key={3}
-                  num="03"
-                  name="PII Protector"
-                  title="SAFEguard Personally Identifiable Information (PII) & be Compliant."
-                  des="In this data driven age, ensuring security and safeguarding individual's data have become Paramount concerns.  We handle PII information through, Define, Detect, User Access , Mask, Send email Alert's, Required logs for Auditing, Reports."
-                  link="-vLYTijz370"
-                  url="https://clousec.io/"
-                />
-              </div>
             </Slider>
           </div>
           <div className="ProductNextBackButtonBottomContainer">
@@ -250,3 +228,80 @@ const ProductSlider = () => {
 };
 
 export default ProductSlider;
+
+
+// const videoData = [
+//   // {
+//   //   key: 1,
+//   //   title: "Healthcare Management Web Application",
+//   //   des: "Healthcare Management Web Application is a comprehensive solution that streamlines the management of healthcare facilities. It includes features such as patient registration, appointment scheduling, doctor availability, billing, and inventory management. The application is designed to be user-friendly and efficient, ensuring seamless operations for healthcare providers and administrators.",
+//   //   list: [
+//   //     {
+//   //       "title": "Feature 1",
+//   //       "description": "Description for feature 1",
+//   //     },
+//   //     {
+//   //       "title": "Feature 2",
+//   //       "description": "Description for feature 2",
+//   //     }
+//   //   ],
+//   //   link: "-vLYTijz370",
+//   //   url: "https://clousec.io/"
+//   // },
+//   // {
+//   //   key: 2,
+//   //   num: "02",
+//   //   name: "Happiedineer",
+//   //   title: "Modernize your Restaurants with Automation & Data driven recommendation.",
+//   //   des: "Happiedinner is a Light weight Serverless architecture framework Providing digitalized Wow experience to end customers through, Digital menu's with ordering, Data Driven Recommendation, Digitalized Kitchen's, Last minute deals, Digital Payments.",
+//   //   link: "jEwftk8SNuA",
+//   //   url: "https://clousec.io/",
+//   // },
+//   // {
+//   //   key: 3,
+//   //   // num: "03",
+//   //   // name: "PII Protector",
+//   //   title: "SAFEguard Personally Identifiable Information (PII) & be Compliant.",
+//   //   des: "In this data driven age, ensuring security and safeguarding individual's data have become Paramount concerns. We handle PII information through, Define, Detect, User Access, Mask, Send email Alert's, Required logs for Auditing, Reports.",
+//   //   link: "-vLYTijz370",
+//   //   url: "https://clousec.io/",
+//   // },
+//   // {
+//   //   key: 1,
+//   //   title: "Agricultural Crop Recommendation Platform",
+//   //   des: "Built a web application to empower Indian farmers with data‑driven crop planning, featuring:",
+//   //   list: [
+//   //     {
+//   //       "title": "Feature 1",
+//   //       "description": "Description for feature 1",
+//   //     },
+//   //     {
+//   //       "title": "Feature 2",
+//   //       "description": "Description for feature 2",
+//   //     },
+//   //     {
+//   //       "title": "Feature 1",
+//   //       "description": "Description for feature 1",
+//   //     },
+//   //     {
+//   //       "title": "Feature 2",
+//   //       "description": "Description for feature 2",
+//   //     }
+//   //   ],
+//   //   link: "-vLYTijz370",
+//   //   url: "https://clousec.io/"
+//   // },
+//   // {
+//   //   key: 5,
+//   //   // num: "03",
+//   //   name: "PII Protector",
+//   //   title: "Healthcare : Patient Records, Token System & Daily Revenue",
+//   //   des: "In this data driven age, ensuring security and safeguarding individual's data have become Paramount concerns. We handle PII information through, Define, Detect, User Access, Mask, Send email Alert's, Required logs for Auditing, Reports.",
+//   //   link: "904rx4zDDn8",
+//   //   url: "https://clousec.io/",
+//   // },
+// ];
+
+
+
+

@@ -14,10 +14,24 @@ import logesh from "./assets/images/brains/logesh.jpg";
 import TB_new3 from "./assets/images/brains/TB_new3.jpg";
 import SathishImg from "./assets/images/brains/Sathish.jpg";
 import Mahendran from "./assets/images/brains/Mahendran.jpg";
+import praveen from "./assets/images/brains/TB_new4.jpg";
+import aravinth from "./assets/images/brains/TB_new5.jpg";
 
 import logo1 from "./assets/Logo.png";
 import logo2 from "./assets/happiedinner.jpg";
 import logo3 from "./assets/logoPII.png";
+
+
+import p1 from "./assets/images/news/new/post1.png";
+import p2 from "./assets/images/news/new/post2.png";
+import p3 from "./assets/images/news/new/post3.png";
+import p4 from "./assets/images/news/new/post4.png";
+import p5 from "./assets/images/news/new/post5.png";
+import p6 from "./assets/images/news/new/post6.png";
+import p7 from "./assets/images/news/new/post7.png";
+import p8 from "./assets/images/news/new/post8.png";
+import p9 from "./assets/images/news/new/post9.png";
+
 
 export const routes = [
   {
@@ -65,21 +79,21 @@ export const routes = [
       {
         title: "ClouSec",
         des: "ClouSec is a intelligent CSPM tool addressing regulatory compliance, data risks, infrastructure gap in the security policy with comprehensive account view, saving cost on the workloads and solutions to known configuration issues. ",
-        link: "https://clousec.io/",
+        link: "https://www.clousec.net",
         img: logo1,
       },
       {
         title: "Happiediner",
         des: "Happiediner is a complete digital solution for the restaurants involving super admin, restaurant owner, customers and kitchen modules with unique feature like last minute deal, data driven recommendation system, digitalized kitchen process and food order tracking.",
-        link: "https://clousec.io/",
+        link: "/",
         img: logo2,
       },
-      {
-        title: "PII Protector",
-        des: "PII Protector is a 1st AI based plugin to monitor sensitive PII (personally identifiable information like credit card numbers, passwords, country code, AWS / Google secret keys, email address, JWT tokens etc.)",
-        link: "https://clousec.io/",
-        img: logo3,
-      },
+      // {
+      //   title: "PII Protector",
+      //   des: "PII Protector is a 1st AI based plugin to monitor sensitive PII (personally identifiable information like credit card numbers, passwords, country code, AWS / Google secret keys, email address, JWT tokens etc.)",
+      //   link: "https://clousec.io/",
+      //   img: logo3,
+      // },
     ],
   },
   {
@@ -412,6 +426,60 @@ export const ourBrains = [
       },
     ],
   },
+  {
+    id: 14,
+    name: "Praveen Raj",
+    position: "Junior Full Stack Developer ",
+    img: praveen,
+
+    skills: [
+      {
+        skill: "JavaScript",
+        precentage: 90,
+      },
+      {
+        skill: ".Net",
+        precentage: 100,
+      },
+      {
+        skill: "MSSQL ",
+        precentage: 70,
+      },
+      {
+        skill: "ML / LLM Models ",
+        precentage: 80,
+      },
+    ],
+  },
+  {
+    id: 15,
+    name: "Aravinth ",
+    position: "Junior Full Stack Developer ",
+    img: aravinth,
+
+    skills: [
+      {
+        skill: "React",
+        precentage: 100,
+      },
+      {
+        skill: "JavaScript",
+        precentage: 90,
+      },
+      {
+        skill: "Node JS",
+        precentage: 70,
+      },
+      {
+        skill: ".Net ",
+        precentage: 90,
+      },
+      {
+        skill: "MSSQL",
+        precentage: 70,
+      },
+    ],
+  },
 ];
 
 export const devOpsFaq = {
@@ -428,3 +496,272 @@ export const devOpsFaq = {
   answer4:
     "Continuous Delivery (CD) is a DevOps practice where code changes are automatically prepared for a release to production. It builds upon Continuous Integration by deploying all code changes to a testing environment and/or a production environment after the build stage. Continuous Delivery ensures that the software can be reliably released at any time, and with minimal manual intervention.",
 };
+
+export const linkedInData = [
+  {
+    img: p1,
+    title: "Grateful this Labour Day to the Stigmata and ClouSec teams—your dedication drives our success. Here’s to 2025 milestones together! #LabourDay #Gratitude #Teamwork #2025Goals",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7323398021197504514/"
+  },
+  {
+    img: p2,
+    title: "Launching May 1, 2025: ClouSec—next-gen AWS cloud security. Proactive, intelligent defense for compliance, cost savings, and automation. A new era of protection begins!",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7319341494111215616/"
+  },
+  {
+    img: p3,
+    title: "Introducing Lex Nyxoria: a visionary platform uniting users and experts. Powered by AWS serverless, Stigmata Team crafts innovation, ignites transformation, and redefines excellence together.",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7317223597255639041/"
+  },
+  {
+    img: p4,
+    title: "Thrilled to launch our e-auction web app at Stigmata Techno Solutions! Grateful to our team and Ms. Aseel as we start this fiscal strong.",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7311407484613599233/"
+  },
+  {
+    img: p5,
+    title: "Honored to meet Shikhar Malhotra, CEO of HCL Healthcare, and discuss how ClouSec empowers healthcare with data security and compliance. Thanks to SSN iFound!",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7306953435046678528/"
+  },
+  {
+    img: p6,
+    title: "Honored to launch Campus Drive 2025 at St. Joseph’s—my alma mater and talent hub. Grateful for the passionate alumni driving our company’s tech growth!",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7293823522672414720/"
+  },
+  {
+    img: p7,
+    title: "Honored to speak on entrepreneurship at Mar Gregorios College, Chennai. Grateful to MSME, StartupTN, and young innovators—let’s dream big, solve boldly, and grow together!",
+    link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_honored-to-inspire-future-entrepreneurs-activity-7293246929184923648-eTAZ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAzOs6QBl4ElH2DmrZdk4NB1RH_FXqQKnUI"
+  },
+  {
+    img: p8,
+    title: "ClouSec is officially incubated by SSN Incubation Foundation! Excited to fast-track our cloud security solutions for SMEs. Thank you, SSN, for supporting our vision!",
+    link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_clousec-ssnincubation-cloudsecurity-activity-7243817900468269056-Jasu?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAzOs6QBl4ElH2DmrZdk4NB1RH_FXqQKnUI"
+  },
+  {
+    img: p3,
+    title: "Excited to be the L1 bidder for L&T PT&D's 'Management Information System: Phase III.' Grateful to our team and partners! Big things ahead with ClouSec & Happiediner!",
+    link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_software-itservices-softwaredevelopment-activity-7241255002952912897-Bl5q?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAAzOs6QBl4ElH2DmrZdk4NB1RH_FXqQKnUI"
+  },
+  // {
+  //   img: news2,
+  //   title: "We are thrilled & excited to announce that our team members, Mr. Logeswaran and Mr. Mohamed Faisal, have successfully earned their *AWS Solutions Architect certifications* 🔥 ",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_awscertification-activity-7218545217790959616-oal7/?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news3,
+  //   title: "We are thrilled & excited to announce that our team members, Mr. Logeswaran and Mr. Mohamed Faisal, have successfully earned their *AWS Solutions Architect certifications* 🔥 ",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_we-are-thrilled-to-share-this-amazing-testimonial-activity-7199999172643602432-2wfk/?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news4,
+  //   title: "Ready to transform your cloud security operations? Discover the power of ClouSec today and achieve unparalleled security and compliance for your AWS environment by reaching us at sales@clousec.io ",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_ciso-cybersecurity-securitymisconfigurations-activity-7217019432592711680-SNnd?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news5,
+  //   title: "Welcoming the new joinees Mr. Peter, Mr. Faisal, Mr.Pugal & Mr. Logesh to our Stigmata family. Me & our team are excited to work with you guys ! ",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_welcoming-the-new-joinees-mr-peter-mr-activity-7196444114136031233-qdYs?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news6,
+  //   title: "Board of Study Member of SRM Valliammai Engineering College CSE department was excited to welcome students for an industrial visit at our humble office ",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_industrialvisit-technology-activity-7176994628116623360-Vndk?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news7,
+  //   title: " Waked out of St.Joseph’s @ 2008 with no job, hope and today it’s the 2nd time I go for campus hiring for Stigmata Techno Solutions 🔥 When we figure out our passion, the magic will happen 👌",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_waked-out-of-stjosephs-2008-with-no-job-activity-7176631864948903936-fbBV?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news8,
+  //   title: " ST. JOSEPH'S INSTITUTE OF TECHNOLOGY, OMR (AI & data science department) on developing few scalable POC’s together. Thanks to Precila madam & respected principal sir for having us 🔥\n\nOrdinary person with extraordinary dreams 🔥🔥",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_mou-activity-7178795486856818690-CX6E?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news9,
+  //   title: "The most important thing in life will always be the people who comes as friends and become part of our family 🔥 I strongly believe we can reach sky when the right team is on action 🔥🔥",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_fullstackwebdevelopment-blockchaindevelopment-activity-7160276670858285056-cnrc?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news10,
+  //   title: "Thrilled & with grateful, we would like to share that we were the L1 bidder in getting a new digital / strategic development project from L&T power transmission & distribution IC to perform 'Management Information System : Phase II for entire PT&D EDRC IC .'",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_thrilled-with-grateful-we-would-like-to-activity-7189237868052078592-blOi?utm_source=share&utm_medium=member_android"
+  // },
+  // {
+  //   img: news11,
+  //   title: "we would like to share that we've secured a new Purchase Order from Knit-works to perform data analysis and design an effective, user friendly dashboard (Finance, Production, Animal losses) in Power BI for a dairy farm in Germany.",
+  //   link: "https://www.linkedin.com/posts/jerome-melkisidak-970b635b_dataanalytics-dataprocessing-powerbi-activity-7151050480301817856-MpYk?utm_source=share&utm_medium=member_android"
+  // }
+
+];
+
+
+
+export const productsData = [
+  {
+    key: 1,
+    title: "Healthcare Management Web Application",
+    des: "Developed a full-stack web application tailored for healthcare facilities, featuring:",
+    list: [
+      {
+        title: "Patient Data Management",
+        description: "Securely store and retrieve patient records with role‑based access controls."
+      },
+      {
+        title: "Visit Token System",
+        description: "Generate and manage digital tokens for patient check‑ins, reducing wait times."
+      },
+      {
+        title: "Automated Billing",
+        description: "Calculate service‑based dynamic fees and automatically generate invoices at the end of each day."
+      },
+      {
+        title: "Operational Dashboard",
+        description: " Interactive executive dashboard offering real‑time insights, including daily revenue, appointment statistics, and service utilization trends."
+      },
+      {
+        title: "Cloud Deployment",
+        description: " Deployed on AWS using EC2, RDS, and S3 to ensure scalability, reliability, and data security."
+      }
+    ],
+    link: "904rx4zDDn8",
+    url: "https://www.youtube.com/watch?v=904rx4zDDn8"
+  },
+  {
+    key: 2,
+    title: "Agricultural Crop Recommendation Platform",
+    des: "Built a web application to empower Indian farmers with data‑driven crop planning, featuring:",
+    list: [
+      {
+        title: "Region‑Specific Recommendations",
+        description: "Analyze regional climatic data to suggest optimal crops for each month."
+      },
+      {
+        title: "Yield Forecasting",
+        description: " Estimate expected yield based on historical weather patterns and soil metrics."
+      },
+      {
+        title: "Enquiry Support",
+        description: "Integrated customer support form allows farmers to submit queries and receive expert guidance."
+      },
+      {
+        title: "Responsive Design",
+        description: " Intuitive UI that adapts to desktop and mobile devices for on‑the‑field accessibility."
+      },
+      {
+        title: "Cloud Hosting",
+        description: "Hosted on AWS with a serverless backend (Lambda, API Gateway) and DynamoDB for efficient, cost‑effective performance."
+      }
+    ],
+    link: "mQ0zuHLDQME",
+    url: "https://www.youtube.com/watch?v=mQ0zuHLDQME"
+  },
+  {
+    key: 3,
+    title: " ClouSec ",
+    des: " The AI-Powered RegTech Platform for Effortless Cloud Compliance ",
+    
+    
+  des1 :"Streamline cloud security and compliance with ClouSec, the intelligent RegTech platform designed for modern businesses. Unlike traditional CSPM tools, ClouSec delivers a unified solution with Security Information and Event Management (SIEM), Cloud Infrastructure Entitlement Management (CIEM) and Cloud Center of Excellence (CCoE) capabilities, providing a comprehensive shield for cloud infrastructures of any scale. ClouSec empowers organizations to meet country specific regulatory standards, automate cloud security operations using AI, and reduce cloud monthly billing.",
+    // list: [
+    //   {
+    //     title: "Region‑Specific Recommendations",
+    //     description: "Analyze regional climatic data to suggest optimal crops for each month."
+    //   },
+    //   {
+    //     title: "Yield Forecasting",
+    //     description: " Estimate expected yield based on historical weather patterns and soil metrics."
+    //   },
+    //   {
+    //     title: "Enquiry Support",
+    //     description: "Integrated customer support form allows farmers to submit queries and receive expert guidance."
+    //   },
+    //   {
+    //     title: "Responsive Design",
+    //     description: " Intuitive UI that adapts to desktop and mobile devices for on‑the‑field accessibility."
+    //   },
+    //   {
+    //     title: "Cloud Hosting",
+    //     description: "Hosted on AWS with a serverless backend (Lambda, API Gateway) and DynamoDB for efficient, cost‑effective performance."
+    //   }
+    // ],
+    link: "-vLYTijz370",
+    url: "https://www.youtube.com/watch?v=-vLYTijz370"
+  },
+  {
+    key: 4,
+    title: "Happiedineer ",
+    des: "Modernize your Restaurants with Automation & Data driven recommendation.",
+    
+    
+  des1 :"Happiedinner is a Light weight Serverless architecture framework Providing digitalized Wow experience to end customers through, Digital menu's with ordering, Data Driven Recommendation, Digitalized Kitchen's, Last minute deals, Digital Payments.",
+    // list: [
+    //   {
+    //     title: "Region‑Specific Recommendations",
+    //     description: "Analyze regional climatic data to suggest optimal crops for each month."
+    //   },
+    //   {
+    //     title: "Yield Forecasting",
+    //     description: " Estimate expected yield based on historical weather patterns and soil metrics."
+    //   },
+    //   {
+    //     title: "Enquiry Support",
+    //     description: "Integrated customer support form allows farmers to submit queries and receive expert guidance."
+    //   },
+    //   {
+    //     title: "Responsive Design",
+    //     description: " Intuitive UI that adapts to desktop and mobile devices for on‑the‑field accessibility."
+    //   },
+    //   {
+    //     title: "Cloud Hosting",
+    //     description: "Hosted on AWS with a serverless backend (Lambda, API Gateway) and DynamoDB for efficient, cost‑effective performance."
+    //   }
+    // ],
+    link: "rg03HydYj84",
+    url: "https://www.youtube.com/watch?v=rg03HydYj84"
+  },
+
+  {
+    key: 4,
+    title: "HM🟡CLAUSE ",
+    des: "A marketing-focused web application to enhance brand engagement at live events, featuring:",
+    
+    
+  // des1 :"Happiedinner is a Light weight Serverless architecture framework Providing digitalized Wow experience to end customers through, Digital menu's with ordering, Data Driven Recommendation, Digitalized Kitchen's, Last minute deals, Digital Payments.",
+    list: [
+      {
+        title: "Event Management",
+        description: "Capture event details and organizer information, including a customizable brand cover image."
+      },
+      {
+        title: "Unique Photo Links",
+        description: " Generate event-specific URLs for volunteers to take customer photos overlayed with the brand cover."
+      },
+      {
+        title: "Data Collection",
+        description: " Collect customer information securely to facilitate personalized follow-ups."
+      },
+      {
+        title: "Instant Sharing",
+        description: " Automatically collage photos and enable sharing via WhatsApp or other social media platforms."
+      },
+      {
+        title: "Analytics Dashboard",
+        description: " Track engagement metrics, share rates, and user data to measure campaign effectiveness."
+      }
+      , {
+        title: "Cloud Infrastructure",
+        description: " Hosted on AWS to ensure reliability and easy scalability."
+      }
+    ],
+    link: "-mBJfymc1QM",
+    url: "https://www.youtube.com/watch?v=-mBJfymc1QM"
+  },
+
+
+
+
+
+
+];
