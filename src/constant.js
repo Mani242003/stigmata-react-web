@@ -133,6 +133,12 @@ export const routes = [
       },
     ],
   },
+  {
+    id: 6,
+
+    name: "AWS Partner",
+    link: "/aws-partner",
+  },
 
   {
     id: 5,
@@ -140,6 +146,7 @@ export const routes = [
     name: "Contact Us",
     link: "/contact",
   },
+   
 ];
 
 export const ourBrains = [

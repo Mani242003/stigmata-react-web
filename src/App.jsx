@@ -29,8 +29,10 @@ const CloudMigrate = lazy(() => import("./pages/services/cloudMigrate/CloudMigra
 const ServerLess = lazy(() => import("./pages/services/serverLess/ServerLess"));
 const About = lazy(() => import("./pages/about/About"));
 const Career = lazy(() => import("./pages/Career/Career"));
-const ManiAPI = lazy(() => import("./ManiAPI"));
+
 const Policy = lazy(() => import("./pages/Policy/Policy"));
+const AwsPartnerPage = lazy(() => import("./pages/AwsPartnerPage/AwsPartnerPage"));
+
 
 // Loading component for Suspense fallback
 const LoadingSpinner = () => (
@@ -84,6 +86,8 @@ const App = () => {
           <Route path="/dev-Ops" element={<ServerLess />} />
           <Route path="/cloud-migration" element={<CloudMigrate />} />
           <Route path="/serverless-computing" element={<DevOps />} />
+          <Route path="/aws-partner" element={<AwsPartnerPage />} />
+
 
           <Route path="/blog" element={<Blog />} />
           <Route path="/plugin-development" element={<Plugin />} />

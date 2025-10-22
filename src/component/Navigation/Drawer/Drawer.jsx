@@ -157,11 +157,19 @@ const Drawer = ({ isOpen, toggleDrawer }) => {
                 </div>
               </div>
             </div>
+             <div className="Customitem2 Customitem">
+              <div className="titel" onClick={() => accordianToggel(7)}>
+                <Link to="/aws-partner"> AWS Partner</Link>
+              </div>
+            </div>
+            
             <div className="Customitem">
               <div className="titel" onClick={() => accordianToggel(6)}>
                 <Link to="/contact"> Contact Us</Link>
               </div>
             </div>
+
+            
           </div>
         </div>
 

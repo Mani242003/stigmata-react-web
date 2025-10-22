@@ -1,0 +1,287 @@
+.aws-page {
+  font-family: "Inter", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.7;
+
+  section {
+    position: relative;
+    padding: 6rem 2rem;
+
+    .containeraws {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    background: url("../../assets/awspageimg1.avif") center/cover no-repeat;
+    min-height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom right,
+        rgba(0, 20, 80, 0.7),
+        rgba(0, 0, 40, 0.85)
+      );
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 850px;
+      padding: 0 1rem;
+
+      h1 {
+        font-size: clamp(2.5rem, 5vw, 3.8rem);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+      }
+    }
+  }
+
+  /* INTRO */
+  .intro {
+    background: #fff;
+    position: relative;
+
+    .bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: url("../../assets/awspageimg2.avif") center/cover no-repeat;
+      opacity: 0.08;
+      z-index: 0;
+    }
+
+    p {
+      font-size: 1.15rem;
+      margin-bottom: 1.5rem;
+      max-width: 950px;
+      color: #333;
+    }
+
+    strong {
+      color: #0d47a1;
+    }
+  }
+
+  /* PARTNERSHIP */
+  .partnership {
+    background: #f5f8fc;
+    text-align: center;
+
+    h2 {
+      font-size: 2.4rem;
+      color: #0d47a1;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+      max-width: 850px;
+      margin: 0.8rem auto;
+    }
+
+    .icon {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
+
+  /* PRODUCTS */
+  .products {
+    background: linear-gradient(180deg, #ffffff 0%, #f9fbff 100%);
+    overflow: hidden;
+
+    h2 {
+      text-align: center;
+      color: #ff6f00;
+      font-size: 2.4rem;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 3rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 1.25rem;
+      padding: 2rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+
+      &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+      }
+
+      .icon {
+        color: #1e88e5;
+        margin-bottom: 1rem;
+
+        svg {
+          width: 2.2rem;
+          height: 2.2rem;
+        }
+      }
+
+      h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #555;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  /* WHY AWS */
+  .why-aws {
+    background: #f0f3f8;
+    text-align: center;
+
+    h2 {
+      font-size: 2.4rem;
+      color: #0d47a1;
+      margin-bottom: 3rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.8rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 1.25rem;
+      padding: 2rem;
+      text-align: left;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      }
+
+      .icon {
+        color: #0d47a1;
+        margin-bottom: 0.8rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #555;
+      }
+    }
+  }
+
+  /* CTA */
+  .cta {
+    background: url("../../assets/awspageimg3.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 25, 80, 0.85);
+    }
+
+    .content {
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+
+      h2 {
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      button {
+        background: #ffb300;
+        color: #0d47a1;
+        padding: 0.9rem 2.5rem;
+        border-radius: 50px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: #ffd54f;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    section {
+      padding: 4rem 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
