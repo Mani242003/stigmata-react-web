@@ -16,8 +16,7 @@ import Footer from "../../component/footer/Footer";
 import Navigation from "../../component/Navigation/Navigation";
 import { Link } from "react-router-dom";
 
-// 🖼️ Import both AWS badges
-import AwsQualified from "../../assets/aws_partner.png";
+import AwsQualified from "../../assets/awsPartner.png"
 import AwsPartner from "../../assets/aws_qualified_software.png";
 
 export default function AwsPartnerPage() {
