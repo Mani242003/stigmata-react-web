@@ -18,7 +18,7 @@
   /* HERO */
   .hero {
     position: relative;
-    background: url("../../assets/awspageimg1.avif") center/cover no-repeat;
+    background: url("../../assets/AWS-Cloud-Computing-1.png") center/cover no-repeat;
     min-height: 90vh;
     color: #fff;
     display: flex;
@@ -222,7 +222,7 @@
 
   /* CTA */
   .cta {
-    background: url("../../assets/awspageimg3.jpg") center/cover no-repeat;
+    background: url("../../assets/aws.png") center/cover no-repeat;
     color: #fff;
     text-align: center;
 
@@ -285,3 +285,26 @@
     }
   }
 }
+
+
+.aws-badge-group {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  .badge-img {
+    width: 130px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+
+  .badge-img:hover {
+    transform: scale(1.05);
+  }
+}
+
+
